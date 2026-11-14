@@ -89,11 +89,14 @@ def cmd_render(arg=None):
 def yt_client():
     from google.oauth2.credentials import Credentials
     from googleapiclient.discovery import build
-    def env(k):   # tolerate copy-paste extras: spaces, newlines, "NAME = value"
-        v = os.environ.get(k, "").strip()
-        if "=" in v and v.split("=", 1)[0].strip().startswith("YT_"):
-            v = v.split("=", 1)[1].strip()
-        return "".join(v.split())
+    import re
+    pats = {"YT_CLIENT_ID": r"[0-9]+-[a-z0-9]+\.apps\.googleusercontent\.com",
+            "YT_CLIENT_SECRET": r"GOCSPX-[A-Za-z0-9_\-]+",
+            "YT_REFRESH_TOKEN": r"1//[A-Za-z0-9_\-]+"}
+    def env(k):   # tolerate copy-paste extras: spaces, line breaks, other lines, "NAME = value"
+        v = os.environ.get(k, "")
+        m = re.search(pats[k], "".join(v.split()) if k == "YT_REFRESH_TOKEN" else v)
+        return m.group(0) if m else v.strip()
     creds = Credentials(None, refresh_token=env("YT_REFRESH_TOKEN"),
                         token_uri="https://oauth2.googleapis.com/token",
                         client_id=env("YT_CLIENT_ID"), client_secret=env("YT_CLIENT_SECRET"))
