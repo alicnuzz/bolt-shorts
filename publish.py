@@ -13,6 +13,8 @@ Flow for one slot:
   5. upload to YouTube (public) and report the link in Telegram
 """
 import datetime, glob, json, os, subprocess, sys, tempfile, time
+import functools
+print = functools.partial(print, flush=True)
 import bot   # tg(), say(), yt_upload(), description()
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -54,6 +56,10 @@ def sleep_until(t):
 def wait_for_answer(message_id, deadline):
     """Long-poll Telegram until deadline. Returns 'ok', 'no' or None (no answer)."""
     offset = None
+    try:
+        bot.tg("deleteWebhook")          # getUpdates does not work while a webhook is set
+    except Exception as e:
+        print("deleteWebhook", e)
     while datetime.datetime.now(TZ) < deadline:
         left = int((deadline - datetime.datetime.now(TZ)).total_seconds())
         try:
@@ -64,9 +70,15 @@ def wait_for_answer(message_id, deadline):
         for u in ups:
             offset = u["update_id"] + 1
             q = u.get("callback_query")
-            if not q or q.get("message", {}).get("message_id") != message_id:
+            if not q:
                 continue
-            if str(q["from"]["id"]) != bot.CHAT and str(q["message"]["chat"]["id"]) != bot.CHAT:
+            print("button:", q.get("data"), "msg", q.get("message", {}).get("message_id"),
+                  "from", q["from"]["id"], "chat", q.get("message", {}).get("chat", {}).get("id"))
+            if q.get("message", {}).get("message_id") != message_id:
+                try:
+                    bot.tg("answerCallbackQuery", callback_query_id=q["id"], text="Bu eski video")
+                except Exception:
+                    pass
                 continue
             action = q.get("data", "").split(":")[0]
             try:
