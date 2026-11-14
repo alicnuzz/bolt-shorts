@@ -1,0 +1,34 @@
+name: Test (tez sinov)
+on:
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: macos-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11", cache: pip }
+      - run: brew install ffmpeg
+      - run: pip install -r requirements.txt
+      - name: Test slot (Telegram darhol, YouTube 12 daqiqadan keyin, private)
+        env:
+          TG_TOKEN: ${{ secrets.TG_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          YT_PRIVACY: private
+        run: |
+          python - <<'EOF'
+          import datetime, publish as p
+          t = None
+          def fake_slot(slot):
+              global t
+              if t is None:
+                  t = datetime.datetime.now(p.TZ) + datetime.timedelta(minutes=12)
+              return t
+          p.slot_datetime = fake_slot
+          p.ASK_BEFORE = datetime.timedelta(minutes=10)
+          p.run_slot("06:30")
+          EOF
