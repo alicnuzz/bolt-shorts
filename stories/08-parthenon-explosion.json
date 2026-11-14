@@ -1,0 +1,123 @@
+{
+ "title": "The Day the Parthenon Exploded 💥 #shorts",
+ "desc": "The Parthenon stood almost perfectly for over 2,000 years. Then, in 1687, it was used to store gunpowder.",
+ "tags": [
+  "parthenon",
+  "ancient greece",
+  "athens",
+  "history facts",
+  "did you know"
+ ],
+ "emph": [
+  "2,000",
+  "gunpowder",
+  "1687",
+  "cannonball",
+  "exploded",
+  "roof",
+  "ruin"
+ ],
+ "scenes": [
+  {
+   "bg": "scene",
+   "landmark": "temple",
+   "terrain": "grass",
+   "time": "day",
+   "text": "Why is the Parthenon a ruin, when it survived almost perfectly for 2,000 years?",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.24,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "thinking",
+     "pose": "shrug",
+     "talk": true
+    }
+   ],
+   "ding": true,
+   "ding_at": 0.1
+  },
+  {
+   "bg": "scene",
+   "landmark": "temple",
+   "terrain": "grass",
+   "time": "sunset",
+   "text": "For centuries it was a temple, then a church, then a mosque. It still had its roof.",
+   "chars": []
+  },
+  {
+   "bg": "scene",
+   "landmark": "temple",
+   "terrain": "grass",
+   "time": "night",
+   "text": "In 1687, Athens was under attack, and the defenders stored gunpowder inside it.",
+   "chars": [
+    {
+     "outfit": "sailor",
+     "x": 0.76,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "worried",
+     "pose": "idle",
+     "talk": false
+    }
+   ]
+  },
+  {
+   "bg": "scene",
+   "landmark": "temple",
+   "terrain": "grass",
+   "time": "night",
+   "text": "They hoped the enemy wouldn't fire at such a famous building.",
+   "chars": []
+  },
+  {
+   "bg": "scene",
+   "landmark": "volcano",
+   "terrain": "grass",
+   "time": "night",
+   "text": "They were wrong. A cannonball hit the gunpowder.",
+   "chars": [],
+   "shake": true
+  },
+  {
+   "bg": "scene",
+   "landmark": "temple",
+   "terrain": "grass",
+   "time": "night",
+   "text": "The explosion blew off the roof and knocked down many of its columns.",
+   "chars": [
+    {
+     "outfit": "kid",
+     "x": 0.76,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "shocked",
+     "pose": "panic",
+     "talk": false
+    }
+   ],
+   "shake": true
+  },
+  {
+   "bg": "scene",
+   "landmark": "temple",
+   "terrain": "grass",
+   "time": "dawn",
+   "text": "What took 2,000 years to wear down was ruined in a single second. Follow Bolt for a new 'why' every day!",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.24,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "worried",
+     "pose": "shrug",
+     "talk": true
+    }
+   ]
+  }
+ ],
+ "id": "08-parthenon-explosion"
+}

@@ -1,0 +1,142 @@
+{
+ "title": "Why the Colosseum Is Full of Holes 🧀 #shorts",
+ "desc": "The Colosseum's walls are covered in strange holes. They weren't made by battles. They were made by people looking for metal.",
+ "tags": [
+  "colosseum",
+  "ancient rome",
+  "history facts",
+  "middle ages",
+  "did you know"
+ ],
+ "emph": [
+  "holes",
+  "iron",
+  "clamps",
+  "metal",
+  "300",
+  "dug",
+  "missing"
+ ],
+ "scenes": [
+  {
+   "bg": "scene",
+   "landmark": "colosseum",
+   "terrain": "grass",
+   "time": "day",
+   "text": "Why does the Colosseum look like it's covered in holes?",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.24,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "thinking",
+     "pose": "shrug",
+     "talk": true
+    }
+   ],
+   "ding": true,
+   "ding_at": 0.1
+  },
+  {
+   "bg": "scene",
+   "landmark": "colosseum",
+   "terrain": "grass",
+   "time": "sunset",
+   "text": "Cannonballs? Bullets? Nope.",
+   "chars": [
+    {
+     "outfit": "kid",
+     "x": 0.76,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "shocked",
+     "pose": "panic",
+     "talk": false
+    }
+   ]
+  },
+  {
+   "bg": "scene",
+   "landmark": "colosseum",
+   "terrain": "grass",
+   "time": "day",
+   "text": "When the Romans built it, they held the big stone blocks together with iron clamps.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.75,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "point",
+     "talk": false
+    }
+   ]
+  },
+  {
+   "bg": "scene",
+   "landmark": "colosseum",
+   "terrain": "grass",
+   "time": "dawn",
+   "text": "There were hundreds of tons of metal hidden inside the walls.",
+   "chars": []
+  },
+  {
+   "bg": "scene",
+   "landmark": "temple",
+   "terrain": "grass",
+   "time": "night",
+   "text": "Centuries later, after Rome fell, metal was very valuable.",
+   "chars": []
+  },
+  {
+   "bg": "scene",
+   "landmark": "colosseum",
+   "terrain": "grass",
+   "time": "day",
+   "text": "So people chipped into the stone to pull the clamps out and melt them down.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.74,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "angry",
+     "pose": "point",
+     "talk": false
+    }
+   ],
+   "shake": true
+  },
+  {
+   "bg": "scene",
+   "landmark": "colosseum",
+   "terrain": "grass",
+   "time": "sunset",
+   "text": "Every hole you see is where a piece of iron used to be.",
+   "chars": [],
+   "ding": true,
+   "ding_at": 0.5
+  },
+  {
+   "bg": "scene",
+   "landmark": "colosseum",
+   "terrain": "grass",
+   "time": "day",
+   "text": "The Colosseum wasn't shot. It was recycled! Follow Bolt for a new 'why' every day!",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.24,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "wave",
+     "talk": true
+    }
+   ]
+  }
+ ],
+ "id": "05-colosseum-holes"
+}

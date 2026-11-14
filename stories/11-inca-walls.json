@@ -1,0 +1,115 @@
+{
+ "title": "Why Inca Walls Survive Earthquakes That Destroy Modern Buildings 🌋 #shorts",
+ "desc": "Peru has strong earthquakes, but Inca walls at Machu Picchu have stood for centuries. Their secret is in the shape.",
+ "tags": [
+  "machu picchu",
+  "inca",
+  "engineering",
+  "earthquakes",
+  "did you know"
+ ],
+ "emph": [
+  "earthquakes",
+  "mortar",
+  "dance",
+  "trapezoid",
+  "lean",
+  "perfectly",
+  "centuries"
+ ],
+ "scenes": [
+  {
+   "bg": "scene",
+   "landmark": "terraces",
+   "terrain": "mountains",
+   "time": "day",
+   "text": "Why do Inca walls survive earthquakes that knock down modern buildings?",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.24,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "thinking",
+     "pose": "shrug",
+     "talk": true
+    }
+   ],
+   "ding": true,
+   "ding_at": 0.1
+  },
+  {
+   "bg": "scene",
+   "landmark": "terraces",
+   "terrain": "mountains",
+   "time": "sunset",
+   "text": "Peru has lots of strong earthquakes.",
+   "chars": [],
+   "shake": true
+  },
+  {
+   "bg": "scene",
+   "landmark": "terraces",
+   "terrain": "mountains",
+   "time": "day",
+   "text": "But the best Inca walls used no mortar at all. The stones were cut to fit together perfectly.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.75,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "point",
+     "talk": false
+    }
+   ]
+  },
+  {
+   "bg": "scene",
+   "landmark": "terraces",
+   "terrain": "mountains",
+   "time": "dawn",
+   "text": "When the ground shakes, the stones can jiggle a little, then settle back into place.",
+   "chars": [],
+   "shake": true
+  },
+  {
+   "bg": "scene",
+   "landmark": "terraces",
+   "terrain": "mountains",
+   "time": "day",
+   "text": "People say the stones dance.",
+   "chars": [],
+   "ding": true,
+   "ding_at": 0.5
+  },
+  {
+   "bg": "scene",
+   "landmark": "terraces",
+   "terrain": "mountains",
+   "time": "sunset",
+   "text": "The walls also lean slightly inward, and the doors and windows are shaped like trapezoids, which are much more stable.",
+   "chars": []
+  },
+  {
+   "bg": "scene",
+   "landmark": "terraces",
+   "terrain": "mountains",
+   "time": "day",
+   "text": "That's why these walls are still standing after centuries. Follow Bolt for a new 'why' every day!",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.24,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "wave",
+     "talk": true
+    }
+   ]
+  }
+ ],
+ "id": "11-inca-walls"
+}

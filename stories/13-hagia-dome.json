@@ -1,0 +1,125 @@
+{
+ "title": "Hagia Sophia's Dome Fell Down... So They Built It Taller 🕌 #shorts",
+ "desc": "Just 21 years after Hagia Sophia was finished, its giant dome collapsed. The builders' answer surprised everyone.",
+ "tags": [
+  "hagia sophia",
+  "istanbul",
+  "byzantine",
+  "engineering",
+  "did you know"
+ ],
+ "emph": [
+  "collapsed",
+  "earthquakes",
+  "taller",
+  "537",
+  "558",
+  "dome",
+  "steeper"
+ ],
+ "scenes": [
+  {
+   "bg": "scene",
+   "landmark": "hagia",
+   "terrain": "grass",
+   "time": "day",
+   "text": "Why does Hagia Sophia's dome look taller than it was first built?",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.24,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "thinking",
+     "pose": "shrug",
+     "talk": true
+    }
+   ],
+   "ding": true,
+   "ding_at": 0.1
+  },
+  {
+   "bg": "scene",
+   "landmark": "hagia",
+   "terrain": "grass",
+   "time": "sunset",
+   "text": "Hagia Sophia was finished in the year 537, with the biggest dome anyone had ever seen.",
+   "chars": []
+  },
+  {
+   "bg": "scene",
+   "landmark": "hagia",
+   "terrain": "grass",
+   "time": "night",
+   "text": "But Constantinople had earthquakes, and the walls holding the dome were slowly pushed outward.",
+   "chars": [],
+   "shake": true
+  },
+  {
+   "bg": "scene",
+   "landmark": "hagia",
+   "terrain": "grass",
+   "time": "night",
+   "text": "In 558, just 21 years later, the dome came crashing down.",
+   "chars": [
+    {
+     "outfit": "kid",
+     "x": 0.76,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "shocked",
+     "pose": "panic",
+     "talk": false
+    }
+   ],
+   "shake": true
+  },
+  {
+   "bg": "scene",
+   "landmark": "hagia",
+   "terrain": "grass",
+   "time": "dawn",
+   "text": "Instead of giving up, builders made a new dome that was taller and steeper.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.75,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "point",
+     "talk": false
+    }
+   ]
+  },
+  {
+   "bg": "scene",
+   "landmark": "hagia",
+   "terrain": "grass",
+   "time": "day",
+   "text": "A steeper dome pushes down more and out less, so it's easier for the walls to hold.",
+   "chars": [],
+   "ding": true,
+   "ding_at": 1.5
+  },
+  {
+   "bg": "scene",
+   "landmark": "hagia",
+   "terrain": "grass",
+   "time": "sunset",
+   "text": "That rebuilt dome has now stood for almost 1,500 years. Follow Bolt for a new 'why' every day!",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.24,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "wave",
+     "talk": true
+    }
+   ]
+  }
+ ],
+ "id": "13-hagia-dome"
+}

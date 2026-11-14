@@ -1,0 +1,152 @@
+{
+ "title": "How Egyptians Moved Giant Stones With Water 💧 #shorts",
+ "desc": "How did ancient Egyptians drag huge stones across the desert? Scientists found a simple trick: wet sand.",
+ "tags": [
+  "ancient egypt",
+  "pyramids",
+  "physics",
+  "how it was built",
+  "did you know"
+ ],
+ "emph": [
+  "water",
+  "wet",
+  "sand",
+  "half",
+  "painting",
+  "sledge",
+  "trick"
+ ],
+ "scenes": [
+  {
+   "bg": "scene",
+   "landmark": "pyramids",
+   "terrain": "desert",
+   "time": "day",
+   "text": "How did ancient Egyptians drag giant stones across the desert?",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.24,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "thinking",
+     "pose": "shrug",
+     "talk": true
+    }
+   ],
+   "ding": true,
+   "ding_at": 0.1
+  },
+  {
+   "bg": "scene",
+   "landmark": "pyramids",
+   "terrain": "desert",
+   "time": "day",
+   "text": "They put the stones on big wooden sledges and pulled them with ropes.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.74,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "worried",
+     "pose": "point",
+     "talk": false
+    }
+   ]
+  },
+  {
+   "bg": "scene",
+   "landmark": "pyramids",
+   "terrain": "desert",
+   "time": "sunset",
+   "text": "But on dry sand, a sledge digs in and piles sand in front of it. It's really hard to pull.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.74,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "angry",
+     "pose": "panic",
+     "talk": false
+    }
+   ],
+   "shake": true
+  },
+  {
+   "bg": "scene",
+   "landmark": "sphinx",
+   "terrain": "desert",
+   "time": "day",
+   "text": "In 2014, scientists tested something shown in an old Egyptian tomb painting.",
+   "chars": []
+  },
+  {
+   "bg": "scene",
+   "landmark": "sphinx",
+   "terrain": "desert",
+   "time": "dawn",
+   "text": "In the painting, a man pours water on the sand in front of the sledge.",
+   "chars": [
+    {
+     "outfit": "kid",
+     "x": 0.76,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "thinking",
+     "pose": "think",
+     "talk": false
+    }
+   ]
+  },
+  {
+   "bg": "scene",
+   "landmark": "pyramids",
+   "terrain": "desert",
+   "time": "day",
+   "text": "They found that the right amount of water makes the sand firm, so the sledge slides instead of sinking.",
+   "chars": [],
+   "ding": true,
+   "ding_at": 1.5
+  },
+  {
+   "bg": "scene",
+   "landmark": "pyramids",
+   "terrain": "desert",
+   "time": "sunset",
+   "text": "That can cut the pulling force roughly in half!",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.74,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "wave",
+     "talk": false
+    }
+   ]
+  },
+  {
+   "bg": "scene",
+   "landmark": "pyramids",
+   "terrain": "desert",
+   "time": "day",
+   "text": "The secret tool was just a bucket of water. Follow Bolt for a new 'why' every day!",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.24,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "wave",
+     "talk": true
+    }
+   ]
+  }
+ ],
+ "id": "06-wet-sand"
+}

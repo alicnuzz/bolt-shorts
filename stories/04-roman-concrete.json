@@ -1,0 +1,131 @@
+{
+ "title": "Why Roman Concrete Lasts 2,000 Years (And Ours Doesn't) 🏛️ #shorts",
+ "desc": "Roman buildings and harbors have survived for 2,000 years. Scientists found that Roman concrete can actually heal its own cracks.",
+ "tags": [
+  "roman concrete",
+  "ancient rome",
+  "engineering",
+  "science facts",
+  "did you know"
+ ],
+ "emph": [
+  "2,000",
+  "heal",
+  "cracks",
+  "lime",
+  "seawater",
+  "stronger",
+  "crystals"
+ ],
+ "scenes": [
+  {
+   "bg": "scene",
+   "landmark": "colosseum",
+   "terrain": "grass",
+   "time": "day",
+   "text": "Why are Roman buildings still standing after 2,000 years, when modern concrete cracks in decades?",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.24,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "thinking",
+     "pose": "shrug",
+     "talk": true
+    }
+   ],
+   "ding": true,
+   "ding_at": 0.1
+  },
+  {
+   "bg": "scene",
+   "landmark": "temple",
+   "terrain": "grass",
+   "time": "day",
+   "text": "Scientists studied tiny white lumps of lime inside Roman concrete.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.75,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "thinking",
+     "pose": "think",
+     "talk": false
+    }
+   ]
+  },
+  {
+   "bg": "scene",
+   "landmark": "temple",
+   "terrain": "grass",
+   "time": "sunset",
+   "text": "They used to think the lumps were just sloppy mixing. They were wrong.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.75,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "shocked",
+     "pose": "panic",
+     "talk": false
+    }
+   ]
+  },
+  {
+   "bg": "scene",
+   "landmark": "colosseum",
+   "terrain": "grass",
+   "time": "dawn",
+   "text": "When a crack forms and rainwater gets in, the lime dissolves and fills the crack with new crystals.",
+   "chars": []
+  },
+  {
+   "bg": "scene",
+   "landmark": "colosseum",
+   "terrain": "grass",
+   "time": "day",
+   "text": "The concrete actually heals itself!",
+   "chars": [],
+   "ding": true,
+   "ding_at": 0.4
+  },
+  {
+   "bg": "scene",
+   "landmark": "lighthouse",
+   "terrain": "sea",
+   "time": "day",
+   "text": "Roman harbors used volcanic ash, and seawater made them grow rare crystals that got stronger over time.",
+   "chars": []
+  },
+  {
+   "bg": "scene",
+   "landmark": "lighthouse",
+   "terrain": "sea",
+   "time": "sunset",
+   "text": "So the ocean that destroys our concrete was making theirs stronger.",
+   "chars": []
+  },
+  {
+   "bg": "scene",
+   "landmark": "colosseum",
+   "terrain": "grass",
+   "time": "day",
+   "text": "Today, engineers are copying the Roman recipe. Follow Bolt for a new 'why' every day!",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.24,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "wave",
+     "talk": true
+    }
+   ]
+  }
+ ],
+ "id": "04-roman-concrete"
+}

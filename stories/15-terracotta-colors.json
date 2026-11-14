@@ -1,0 +1,124 @@
+{
+ "title": "The Terracotta Army Lost Its Colors in Minutes 🎨 #shorts",
+ "desc": "The Terracotta warriors look gray, but they were once painted in bright colors. When they were dug up, the paint flaked off in minutes.",
+ "tags": [
+  "terracotta army",
+  "china",
+  "archaeology",
+  "history facts",
+  "did you know"
+ ],
+ "emph": [
+  "colors",
+  "painted",
+  "minutes",
+  "air",
+  "flaked",
+  "gray",
+  "bright"
+ ],
+ "scenes": [
+  {
+   "bg": "scene",
+   "landmark": "soldiers",
+   "terrain": "grass",
+   "time": "day",
+   "text": "Why are the Terracotta warriors gray?",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.24,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "thinking",
+     "pose": "shrug",
+     "talk": true
+    }
+   ],
+   "ding": true,
+   "ding_at": 0.1
+  },
+  {
+   "bg": "scene",
+   "landmark": "soldiers",
+   "terrain": "grass",
+   "time": "sunset",
+   "text": "They weren't always. More than 2,200 years ago, they were painted in bright reds, blues, and greens.",
+   "chars": []
+  },
+  {
+   "bg": "scene",
+   "landmark": "soldiers",
+   "terrain": "grass",
+   "time": "night",
+   "text": "Underground, the damp soil kept the paint stuck on.",
+   "chars": []
+  },
+  {
+   "bg": "scene",
+   "landmark": "soldiers",
+   "terrain": "grass",
+   "time": "day",
+   "text": "But when archaeologists dug them up, the dry air hit the paint.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.75,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "worried",
+     "pose": "idle",
+     "talk": false
+    }
+   ]
+  },
+  {
+   "bg": "scene",
+   "landmark": "soldiers",
+   "terrain": "grass",
+   "time": "day",
+   "text": "The paint curled up and flaked off, sometimes in just a few minutes.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.75,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "shocked",
+     "pose": "panic",
+     "talk": false
+    }
+   ],
+   "shake": true
+  },
+  {
+   "bg": "scene",
+   "landmark": "soldiers",
+   "terrain": "grass",
+   "time": "dawn",
+   "text": "That's one reason archaeologists still haven't opened the emperor's tomb itself.",
+   "chars": [],
+   "ding": true,
+   "ding_at": 1.0
+  },
+  {
+   "bg": "scene",
+   "landmark": "soldiers",
+   "terrain": "grass",
+   "time": "day",
+   "text": "They want to wait until they can protect what's inside. Follow Bolt for a new 'why' every day!",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.24,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "wave",
+     "talk": true
+    }
+   ]
+  }
+ ],
+ "id": "15-terracotta-colors"
+}

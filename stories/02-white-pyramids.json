@@ -1,0 +1,149 @@
+{
+ "title": "The Pyramids Used to Be Shiny White! 🏜️ #shorts",
+ "desc": "The Great Pyramid was once covered in polished white limestone that shone in the sun. So where did the shiny shell go?",
+ "tags": [
+  "great pyramid",
+  "ancient egypt",
+  "casing stones",
+  "history facts",
+  "did you know"
+ ],
+ "emph": [
+  "white",
+  "shiny",
+  "polished",
+  "mirror",
+  "earthquake",
+  "cairo",
+  "gone"
+ ],
+ "scenes": [
+  {
+   "bg": "scene",
+   "landmark": "pyramids",
+   "terrain": "desert",
+   "time": "day",
+   "text": "Why are the pyramids brown and bumpy, when they used to be shiny white?",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.24,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "thinking",
+     "pose": "shrug",
+     "talk": true
+    }
+   ],
+   "ding": true,
+   "ding_at": 0.1
+  },
+  {
+   "bg": "scene",
+   "landmark": "pyramids",
+   "terrain": "desert",
+   "time": "day",
+   "text": "When the Great Pyramid was finished, it was covered in smooth, polished white limestone.",
+   "chars": []
+  },
+  {
+   "bg": "scene",
+   "landmark": "pyramids",
+   "terrain": "desert",
+   "time": "sunset",
+   "text": "In the bright Egyptian sun, it would have glowed like a giant mirror in the desert.",
+   "chars": [
+    {
+     "outfit": "kid",
+     "x": 0.75,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "shocked",
+     "pose": "panic",
+     "talk": false
+    }
+   ]
+  },
+  {
+   "bg": "scene",
+   "landmark": "pyramids",
+   "terrain": "desert",
+   "time": "day",
+   "text": "What we see today is only the rough inside.",
+   "chars": []
+  },
+  {
+   "bg": "scene",
+   "landmark": "sphinx",
+   "terrain": "desert",
+   "time": "day",
+   "text": "So where did the shiny shell go?",
+   "chars": [
+    {
+     "outfit": "kid",
+     "x": 0.78,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "thinking",
+     "pose": "shrug",
+     "talk": false
+    }
+   ],
+   "bubble": "?"
+  },
+  {
+   "bg": "scene",
+   "landmark": "pyramids",
+   "terrain": "desert",
+   "time": "night",
+   "text": "In 1303, a huge earthquake shook Egypt and loosened many of the casing stones.",
+   "chars": [],
+   "shake": true
+  },
+  {
+   "bg": "scene",
+   "landmark": "bricks",
+   "terrain": "desert",
+   "time": "day",
+   "text": "Builders in Cairo carried the fallen blocks away to build mosques and other buildings.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.72,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "point",
+     "talk": false
+    }
+   ]
+  },
+  {
+   "bg": "scene",
+   "landmark": "pyramids",
+   "terrain": "desert",
+   "time": "dawn",
+   "text": "Today, only a few of the original white stones are left near the base.",
+   "chars": []
+  },
+  {
+   "bg": "scene",
+   "landmark": "pyramids",
+   "terrain": "desert",
+   "time": "sunset",
+   "text": "So the pyramids didn't just get old. People recycled their shiny skin! Follow Bolt for a new 'why' every day!",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.24,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "wave",
+     "talk": true
+    }
+   ]
+  }
+ ],
+ "id": "02-white-pyramids"
+}

@@ -1,0 +1,140 @@
+{
+ "title": "How the Nazca Lines Were Drawn Without Seeing Them 📏 #shorts",
+ "desc": "The Nazca Lines are perfect giant drawings in the desert. How did people make them without seeing them from the sky?",
+ "tags": [
+  "nazca lines",
+  "peru",
+  "ancient mystery",
+  "how it was made",
+  "did you know"
+ ],
+ "emph": [
+  "straight",
+  "stakes",
+  "rope",
+  "giant",
+  "grid",
+  "copied",
+  "simple"
+ ],
+ "scenes": [
+  {
+   "bg": "scene",
+   "landmark": "nazca",
+   "terrain": "desert",
+   "time": "day",
+   "text": "How did people draw giant pictures they could only see from the sky?",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.24,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "thinking",
+     "pose": "shrug",
+     "talk": true
+    }
+   ],
+   "ding": true,
+   "ding_at": 0.1,
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "nazca",
+   "terrain": "desert",
+   "time": "day",
+   "text": "The Nazca Lines in Peru include a hummingbird, a monkey, and lines that run straight for kilometers.",
+   "chars": [],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "nazca",
+   "terrain": "desert",
+   "time": "sunset",
+   "text": "Some people think aliens must have helped. But there's a much simpler answer.",
+   "chars": [
+    {
+     "outfit": "kid",
+     "x": 0.76,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "shocked",
+     "pose": "panic",
+     "talk": false
+    }
+   ],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "nazca",
+   "terrain": "desert",
+   "time": "day",
+   "text": "Wooden stakes have been found at the ends of some lines.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.75,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "thinking",
+     "pose": "think",
+     "talk": false
+    }
+   ],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "nazca",
+   "terrain": "desert",
+   "time": "dawn",
+   "text": "With stakes and rope, you can lay out very straight lines and scale up a small drawing using a simple grid.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.75,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "point",
+     "talk": false
+    }
+   ],
+   "near": false,
+   "ding": true,
+   "ding_at": 2.0
+  },
+  {
+   "bg": "scene",
+   "landmark": "nazca",
+   "terrain": "desert",
+   "time": "day",
+   "text": "In 1982, a small team used only wooden stakes and string and made a giant copy of one figure in a couple of days.",
+   "chars": [],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "nazca",
+   "terrain": "desert",
+   "time": "sunset",
+   "text": "No aliens needed, just clever people with rope! Follow Bolt for a new 'why' every day!",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.24,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "wave",
+     "talk": true
+    }
+   ],
+   "near": false
+  }
+ ],
+ "id": "16-nazca-straight"
+}

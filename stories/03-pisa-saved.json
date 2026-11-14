@@ -1,0 +1,150 @@
+{
+ "title": "How Engineers Stopped the Leaning Tower From Falling 🏗️ #shorts",
+ "desc": "By 1990 the Leaning Tower of Pisa was close to falling. Engineers saved it with a surprisingly simple trick: they dug.",
+ "tags": [
+  "leaning tower of pisa",
+  "engineering",
+  "italy",
+  "how it works",
+  "did you know"
+ ],
+ "emph": [
+  "falling",
+  "closed",
+  "soil",
+  "north",
+  "straightened",
+  "200",
+  "dig"
+ ],
+ "scenes": [
+  {
+   "bg": "scene",
+   "landmark": "pisa",
+   "terrain": "grass",
+   "time": "day",
+   "text": "Why hasn't the Leaning Tower of Pisa fallen over yet?",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.24,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "thinking",
+     "pose": "shrug",
+     "talk": true
+    }
+   ],
+   "ding": true,
+   "ding_at": 0.1
+  },
+  {
+   "bg": "scene",
+   "landmark": "pisa",
+   "terrain": "grass",
+   "time": "sunset",
+   "text": "For hundreds of years, it leaned a little more every year.",
+   "chars": []
+  },
+  {
+   "bg": "scene",
+   "landmark": "pisa",
+   "terrain": "grass",
+   "time": "day",
+   "text": "By 1990, engineers were worried it could fall at any moment, so they closed it to visitors.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.75,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "worried",
+     "pose": "panic",
+     "talk": false
+    }
+   ],
+   "shake": true
+  },
+  {
+   "bg": "scene",
+   "landmark": "pisa",
+   "terrain": "grass",
+   "time": "dawn",
+   "text": "Pushing it back up would be too dangerous. So they tried something clever.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.75,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "thinking",
+     "pose": "think",
+     "talk": false
+    }
+   ]
+  },
+  {
+   "bg": "scene",
+   "landmark": "pisa",
+   "terrain": "grass",
+   "time": "day",
+   "text": "They slowly dug soil out from under the high side of the tower.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.75,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "point",
+     "talk": false
+    }
+   ]
+  },
+  {
+   "bg": "scene",
+   "landmark": "pisa",
+   "terrain": "grass",
+   "time": "sunset",
+   "text": "Little by little, the ground sank on that side, and the tower leaned back.",
+   "chars": []
+  },
+  {
+   "bg": "scene",
+   "landmark": "pisa",
+   "terrain": "grass",
+   "time": "day",
+   "text": "By 2001, it had straightened by about 45 centimeters.",
+   "chars": [],
+   "ding": true,
+   "ding_at": 1.0
+  },
+  {
+   "bg": "scene",
+   "landmark": "pisa",
+   "terrain": "grass",
+   "time": "night",
+   "text": "Engineers think it should now stay safe for at least 200 years.",
+   "chars": []
+  },
+  {
+   "bg": "scene",
+   "landmark": "pisa",
+   "terrain": "grass",
+   "time": "day",
+   "text": "They saved it by digging, not by pushing! Follow Bolt for a new 'why' every day!",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.24,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "wave",
+     "talk": true
+    }
+   ]
+  }
+ ],
+ "id": "03-pisa-saved"
+}

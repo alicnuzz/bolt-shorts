@@ -1,0 +1,142 @@
+{
+ "title": "Why Some Easter Island Heads Wear Red Hats 🗿 #shorts",
+ "desc": "Some moai on Easter Island wear giant red stone hats called pukao. How did people lift them up there?",
+ "tags": [
+  "easter island",
+  "moai",
+  "rapa nui",
+  "ancient mystery",
+  "did you know"
+ ],
+ "emph": [
+  "red",
+  "hats",
+  "pukao",
+  "tons",
+  "rolled",
+  "ramp",
+  "volcano"
+ ],
+ "scenes": [
+  {
+   "bg": "scene",
+   "landmark": "moai",
+   "terrain": "grass",
+   "time": "day",
+   "text": "Why do some Easter Island statues wear giant red hats?",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.24,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "thinking",
+     "pose": "shrug",
+     "talk": true
+    }
+   ],
+   "ding": true,
+   "ding_at": 0.1
+  },
+  {
+   "bg": "scene",
+   "landmark": "moai",
+   "terrain": "grass",
+   "time": "sunset",
+   "text": "They're called pukao, and they're carved from red volcanic stone.",
+   "chars": []
+  },
+  {
+   "bg": "scene",
+   "landmark": "volcano",
+   "terrain": "grass",
+   "time": "day",
+   "text": "It all came from one quarry on the island, a crater called Puna Pau.",
+   "chars": []
+  },
+  {
+   "bg": "scene",
+   "landmark": "moai",
+   "terrain": "grass",
+   "time": "day",
+   "text": "Some of these hats weigh as much as two elephants!",
+   "chars": [
+    {
+     "outfit": "kid",
+     "x": 0.76,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "shocked",
+     "pose": "panic",
+     "talk": false
+    }
+   ]
+  },
+  {
+   "bg": "scene",
+   "landmark": "moai",
+   "terrain": "grass",
+   "time": "dawn",
+   "text": "So how did the Rapa Nui people get them on top of the statues?",
+   "chars": [
+    {
+     "outfit": "kid",
+     "x": 0.7,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "thinking",
+     "pose": "shrug",
+     "talk": false
+    }
+   ],
+   "bubble": "?"
+  },
+  {
+   "bg": "scene",
+   "landmark": "moai",
+   "terrain": "grass",
+   "time": "day",
+   "text": "Scientists think they rolled the hats up a ramp, then tipped them into place.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.75,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "point",
+     "talk": false
+    }
+   ],
+   "ding": true,
+   "ding_at": 1.5
+  },
+  {
+   "bg": "scene",
+   "landmark": "moai",
+   "terrain": "grass",
+   "time": "sunset",
+   "text": "The red color may have shown the importance of the ancestors the statues honor.",
+   "chars": []
+  },
+  {
+   "bg": "scene",
+   "landmark": "moai",
+   "terrain": "grass",
+   "time": "day",
+   "text": "Hats off to some seriously clever engineers! Follow Bolt for a new 'why' every day!",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.24,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "wave",
+     "talk": true
+    }
+   ]
+  }
+ ],
+ "id": "10-moai-hats"
+}

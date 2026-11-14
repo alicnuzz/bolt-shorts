@@ -1,0 +1,6 @@
+edge-tts>=6.1.12
+numpy
+pillow>=10
+requests
+google-api-python-client
+google-auth

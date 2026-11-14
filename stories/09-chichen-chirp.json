@@ -1,0 +1,129 @@
+{
+ "title": "This Pyramid Chirps Like a Bird When You Clap 👏 #shorts",
+ "desc": "Clap your hands in front of El Castillo at Chichén Itzá and the echo comes back sounding like a bird's chirp.",
+ "tags": [
+  "chichen itza",
+  "maya",
+  "mexico",
+  "acoustics",
+  "did you know"
+ ],
+ "emph": [
+  "clap",
+  "chirp",
+  "bird",
+  "echo",
+  "quetzal",
+  "stairs",
+  "sacred"
+ ],
+ "scenes": [
+  {
+   "bg": "scene",
+   "landmark": "mayan",
+   "terrain": "jungle",
+   "time": "day",
+   "text": "What happens if you clap your hands in front of this pyramid?",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.24,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "thinking",
+     "pose": "shrug",
+     "talk": true
+    }
+   ],
+   "ding": true,
+   "ding_at": 0.1
+  },
+  {
+   "bg": "scene",
+   "landmark": "mayan",
+   "terrain": "jungle",
+   "time": "day",
+   "text": "This is El Castillo at Chichén Itzá in Mexico, built by the Maya.",
+   "chars": []
+  },
+  {
+   "bg": "scene",
+   "landmark": "mayan",
+   "terrain": "jungle",
+   "time": "sunset",
+   "text": "If you stand at the bottom and clap, the echo comes back as a strange chirp.",
+   "chars": [
+    {
+     "outfit": "kid",
+     "x": 0.76,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "panic",
+     "talk": false
+    }
+   ],
+   "ding": true,
+   "ding_at": 1.0
+  },
+  {
+   "bg": "scene",
+   "landmark": "mayan",
+   "terrain": "jungle",
+   "time": "dawn",
+   "text": "The sound bounces off the steps one by one, so the echo slides down in pitch.",
+   "chars": []
+  },
+  {
+   "bg": "scene",
+   "landmark": "mayan",
+   "terrain": "jungle",
+   "time": "day",
+   "text": "To many listeners, it sounds like the call of the quetzal, a bird that was sacred to the Maya.",
+   "chars": [],
+   "fx": [
+    "birds"
+   ]
+  },
+  {
+   "bg": "scene",
+   "landmark": "mayan",
+   "terrain": "jungle",
+   "time": "sunset",
+   "text": "Was it on purpose? Some scientists think so. Others say it's a happy accident.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.75,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "thinking",
+     "pose": "think",
+     "talk": false
+    }
+   ]
+  },
+  {
+   "bg": "scene",
+   "landmark": "mayan",
+   "terrain": "jungle",
+   "time": "night",
+   "text": "Either way, the pyramid still sings back to visitors today. Follow Bolt for a new 'why' every day!",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.24,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "wave",
+     "talk": true
+    }
+   ],
+   "fx": [
+    "fireflies"
+   ]
+  }
+ ],
+ "id": "09-chichen-chirp"
+}

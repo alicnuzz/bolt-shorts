@@ -1,0 +1,116 @@
+{
+ "title": "Why Angkor Wat Faces the Wrong Way 🧭 #shorts",
+ "desc": "Almost every temple at Angkor faces east, toward the sunrise. Angkor Wat faces west. Here's why historians think that is.",
+ "tags": [
+  "angkor wat",
+  "cambodia",
+  "temples",
+  "history facts",
+  "did you know"
+ ],
+ "emph": [
+  "west",
+  "east",
+  "sunrise",
+  "sunset",
+  "tomb",
+  "king",
+  "equinox"
+ ],
+ "scenes": [
+  {
+   "bg": "scene",
+   "landmark": "angkor",
+   "terrain": "jungle",
+   "time": "day",
+   "text": "Why does Angkor Wat face the wrong way?",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.24,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "thinking",
+     "pose": "shrug",
+     "talk": true
+    }
+   ],
+   "ding": true,
+   "ding_at": 0.1
+  },
+  {
+   "bg": "scene",
+   "landmark": "angkor",
+   "terrain": "jungle",
+   "time": "dawn",
+   "text": "Almost all the temples around Angkor face east, toward the rising sun.",
+   "chars": []
+  },
+  {
+   "bg": "scene",
+   "landmark": "angkor",
+   "terrain": "jungle",
+   "time": "sunset",
+   "text": "But Angkor Wat, the biggest of them all, faces west.",
+   "chars": [
+    {
+     "outfit": "kid",
+     "x": 0.76,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "shocked",
+     "pose": "panic",
+     "talk": false
+    }
+   ]
+  },
+  {
+   "bg": "scene",
+   "landmark": "angkor",
+   "terrain": "jungle",
+   "time": "sunset",
+   "text": "In Hindu tradition, the west is linked with the setting sun and with death.",
+   "chars": []
+  },
+  {
+   "bg": "scene",
+   "landmark": "angkor",
+   "terrain": "jungle",
+   "time": "night",
+   "text": "So many historians think Angkor Wat was built as the tomb temple of its king, Suryavarman the Second.",
+   "chars": [],
+   "fx": [
+    "fireflies"
+   ]
+  },
+  {
+   "bg": "scene",
+   "landmark": "angkor",
+   "terrain": "jungle",
+   "time": "dawn",
+   "text": "And there's another surprise. On the spring equinox, the sun rises right over the central tower.",
+   "chars": [],
+   "ding": true,
+   "ding_at": 1.8
+  },
+  {
+   "bg": "scene",
+   "landmark": "angkor",
+   "terrain": "jungle",
+   "time": "day",
+   "text": "Facing west lets visitors at the entrance watch it happen. Follow Bolt for a new 'why' every day!",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.24,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "wave",
+     "talk": true
+    }
+   ]
+  }
+ ],
+ "id": "12-angkor-west"
+}

@@ -1,0 +1,141 @@
+{
+ "title": "The Giant Underground Star Ruler of Samarkand 🌌 #shorts",
+ "desc": "Ulugh Beg built an observatory in Samarkand with a giant curved stone track to measure the stars. It was lost for centuries.",
+ "tags": [
+  "ulugh beg",
+  "samarkand",
+  "uzbekistan",
+  "astronomy",
+  "did you know"
+ ],
+ "emph": [
+  "stars",
+  "observatory",
+  "giant",
+  "1908",
+  "underground",
+  "1,000",
+  "year"
+ ],
+ "scenes": [
+  {
+   "bg": "scene",
+   "landmark": "madrasa",
+   "terrain": "desert",
+   "time": "night",
+   "text": "How did a ruler in Samarkand measure the stars without a telescope?",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.24,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "thinking",
+     "pose": "shrug",
+     "talk": true
+    }
+   ],
+   "ding": true,
+   "ding_at": 0.1
+  },
+  {
+   "bg": "scene",
+   "landmark": "madrasa",
+   "terrain": "desert",
+   "time": "day",
+   "text": "About 600 years ago, Ulugh Beg ruled Samarkand. He also loved astronomy.",
+   "chars": []
+  },
+  {
+   "bg": "scene",
+   "landmark": "madrasa",
+   "terrain": "desert",
+   "time": "sunset",
+   "text": "He built a huge observatory on a hill, with a giant curved stone track built into the ground.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.75,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "point",
+     "talk": false
+    }
+   ]
+  },
+  {
+   "bg": "scene",
+   "landmark": "madrasa",
+   "terrain": "desert",
+   "time": "night",
+   "text": "It was about 40 meters in radius, so astronomers could measure the positions of stars very precisely.",
+   "chars": []
+  },
+  {
+   "bg": "scene",
+   "landmark": "madrasa",
+   "terrain": "desert",
+   "time": "night",
+   "text": "His team made a catalog of over 1,000 stars, and measured the length of a year almost perfectly.",
+   "chars": [],
+   "ding": true,
+   "ding_at": 1.0
+  },
+  {
+   "bg": "scene",
+   "landmark": "madrasa",
+   "terrain": "desert",
+   "time": "dawn",
+   "text": "After he died, the observatory was destroyed and forgotten.",
+   "chars": [
+    {
+     "outfit": "kid",
+     "x": 0.76,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "worried",
+     "pose": "idle",
+     "talk": false
+    }
+   ]
+  },
+  {
+   "bg": "scene",
+   "landmark": "madrasa",
+   "terrain": "desert",
+   "time": "day",
+   "text": "Then, in 1908, an archaeologist dug on the hill and found the underground part of the giant track.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.74,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "shocked",
+     "pose": "panic",
+     "talk": false
+    }
+   ]
+  },
+  {
+   "bg": "scene",
+   "landmark": "madrasa",
+   "terrain": "desert",
+   "time": "night",
+   "text": "You can still visit it in Samarkand today. Follow Bolt for a new 'why' every day!",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.24,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "wave",
+     "talk": true
+    }
+   ]
+  }
+ ],
+ "id": "14-ulugh-beg"
+}

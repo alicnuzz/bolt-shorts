@@ -1,0 +1,233 @@
+{
+ "id": "lighthouse-stripes",
+ "title": "Why Lighthouses Wear Stripes",
+ "music": 1,
+ "scenes": [
+  {
+   "bg": "spiral_hero",
+   "time": "day",
+   "text": "Why are some lighthouses painted like candy canes?",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.25,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "neutral",
+     "pose": "shrug",
+     "talk": true
+    }
+   ],
+   "ding": true,
+   "ding_at": 0.1
+  },
+  {
+   "bg": "deck",
+   "time": "sunset",
+   "text": "In the 1800s, a sailor named Tom was lost at sea.",
+   "chars": [
+    {
+     "x": 0.3,
+     "expr": "worried",
+     "pose": "idle",
+     "talk": true
+    }
+   ]
+  },
+  {
+   "bg": "deck",
+   "time": "sunset",
+   "far_lh": true,
+   "text": "Then he spotted a lighthouse on the coast.",
+   "chars": [
+    {
+     "x": 0.3,
+     "expr": "happy",
+     "pose": "point",
+     "look": 1,
+     "talk": true
+    }
+   ]
+  },
+  {
+   "bg": "deck",
+   "time": "sunset",
+   "far_lh": true,
+   "text": "Great! But which one?",
+   "bubble": "?",
+   "chars": [
+    {
+     "x": 0.3,
+     "expr": "thinking",
+     "pose": "shrug",
+     "talk": true
+    }
+   ]
+  },
+  {
+   "bg": "coast_same",
+   "time": "day",
+   "text": "There were dozens along the coast, and from far away, they all looked exactly the same.",
+   "chars": [
+    {
+     "x": 0.18,
+     "y": 0.92,
+     "s": 0.9,
+     "expr": "worried",
+     "pose": "idle",
+     "look": 1
+    }
+   ]
+  },
+  {
+   "bg": "rocks",
+   "time": "sunset",
+   "text": "Pick the wrong one, and you could sail straight into the rocks.",
+   "chars": [
+    {
+     "x": 0.5,
+     "y": 0.86,
+     "s": 1.0,
+     "expr": "shocked",
+     "pose": "panic"
+    }
+   ],
+   "shake": true
+  },
+  {
+   "bg": "workshop",
+   "text": "So builders came up with a clever trick.",
+   "chars": [
+    {
+     "x": 0.68,
+     "y": 0.88,
+     "outfit": "engineer",
+     "expr": "happy",
+     "pose": "point",
+     "talk": true,
+     "look": -1
+    },
+    {
+     "outfit": "bolt",
+     "x": 0.24,
+     "y": 0.93,
+     "s": 0.7,
+     "expr": "happy",
+     "pose": "point",
+     "talk": true
+    }
+   ]
+  },
+  {
+   "bg": "coast_patterns",
+   "time": "day",
+   "text": "They painted every lighthouse differently. Stripes, spirals, checkers, and bands.",
+   "chars": []
+  },
+  {
+   "bg": "coast_patterns",
+   "time": "dawn",
+   "text": "These patterns are called daymarks.",
+   "chars": [
+    {
+     "x": 0.8,
+     "y": 0.92,
+     "s": 0.85,
+     "outfit": "engineer",
+     "expr": "happy",
+     "pose": "wave"
+    }
+   ],
+   "ding": true
+  },
+  {
+   "bg": "chart",
+   "text": "Now Tom just checked his chart. Black and white spiral? That's Cape Hatteras!",
+   "chars": [
+    {
+     "x": 0.8,
+     "y": 0.97,
+     "s": 0.9,
+     "expr": "happy",
+     "pose": "point",
+     "look": -1,
+     "talk": true
+    }
+   ],
+   "ding": true,
+   "ding_at": 2.6
+  },
+  {
+   "bg": "night_row",
+   "time": "night",
+   "text": "But at night, you can't see paint.",
+   "chars": [
+    {
+     "x": 0.2,
+     "y": 0.93,
+     "s": 0.85,
+     "expr": "worried",
+     "pose": "shrug"
+    }
+   ]
+  },
+  {
+   "bg": "night_row",
+   "time": "night",
+   "text": "So every light got its own rhythm. One flashes every few seconds. Another blinks twice, then pauses.",
+   "chars": []
+  },
+  {
+   "bg": "deck",
+   "time": "night",
+   "far_lh": true,
+   "text": "Sailors could read the coast like a book.",
+   "chars": [
+    {
+     "x": 0.3,
+     "expr": "happy",
+     "pose": "wave",
+     "talk": true
+    }
+   ]
+  },
+  {
+   "bg": "spiral_hero",
+   "time": "day",
+   "text": "So that striped lighthouse isn't decoration. It's a name tag for ships.",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.24,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "wave",
+     "talk": true
+    }
+   ]
+  }
+ ],
+ "emph": [
+  "book",
+  "candy",
+  "canes",
+  "daymarks",
+  "decoration",
+  "differently",
+  "hatteras",
+  "lighthouse",
+  "lost",
+  "name",
+  "night",
+  "rhythm",
+  "rocks",
+  "same",
+  "ships",
+  "tag",
+  "trick",
+  "which",
+  "why"
+ ],
+ "host": "bolt"
+}

@@ -1,0 +1,114 @@
+{
+ "title": "Why Petra's Treasury Is Covered in Bullet Holes 💰 #shorts",
+ "desc": "The stone urn on top of Petra's Treasury is full of bullet marks. People thought a pharaoh's treasure was hidden inside.",
+ "tags": [
+  "petra",
+  "jordan",
+  "treasury",
+  "legend",
+  "did you know"
+ ],
+ "emph": [
+  "bullet",
+  "treasure",
+  "urn",
+  "pharaoh",
+  "solid",
+  "nothing",
+  "treasury"
+ ],
+ "scenes": [
+  {
+   "bg": "scene",
+   "landmark": "petra",
+   "terrain": "desert",
+   "time": "day",
+   "text": "Why is this ancient building in Jordan covered in bullet holes?",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.24,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "thinking",
+     "pose": "shrug",
+     "talk": true
+    }
+   ],
+   "ding": true,
+   "ding_at": 0.1
+  },
+  {
+   "bg": "scene",
+   "landmark": "petra",
+   "terrain": "desert",
+   "time": "day",
+   "text": "This is Al-Khazneh in Petra. Its name means The Treasury.",
+   "chars": []
+  },
+  {
+   "bg": "scene",
+   "landmark": "petra",
+   "terrain": "desert",
+   "time": "sunset",
+   "text": "At the very top, there's a big stone urn.",
+   "chars": []
+  },
+  {
+   "bg": "scene",
+   "landmark": "petra",
+   "terrain": "desert",
+   "time": "night",
+   "text": "Local legend said a pharaoh had hidden his gold inside it.",
+   "chars": [
+    {
+     "outfit": "kid",
+     "x": 0.76,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "shocked",
+     "pose": "panic",
+     "talk": false
+    }
+   ]
+  },
+  {
+   "bg": "scene",
+   "landmark": "petra",
+   "terrain": "desert",
+   "time": "day",
+   "text": "So for years, people fired rifles at the urn, hoping to break it open and make the treasure rain down.",
+   "chars": [],
+   "shake": true
+  },
+  {
+   "bg": "scene",
+   "landmark": "petra",
+   "terrain": "desert",
+   "time": "dawn",
+   "text": "But the urn is carved from solid rock. There was never anything inside.",
+   "chars": [],
+   "ding": true,
+   "ding_at": 1.2
+  },
+  {
+   "bg": "scene",
+   "landmark": "petra",
+   "terrain": "desert",
+   "time": "day",
+   "text": "The only treasure was the building itself. Follow Bolt for a new 'why' every day!",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.24,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "wave",
+     "talk": true
+    }
+   ]
+  }
+ ],
+ "id": "07-petra-bullets"
+}
