@@ -14,8 +14,8 @@ import datetime, json, os, subprocess, sys, tempfile, traceback
 import requests
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-TOKEN = os.environ.get("TG_TOKEN", "")
-CHAT = os.environ.get("TG_CHAT_ID", "")
+TOKEN = os.environ.get("TG_TOKEN", "").strip()
+CHAT = os.environ.get("TG_CHAT_ID", "").strip()
 API = f"https://api.telegram.org/bot{TOKEN}"
 TZ = datetime.timezone(datetime.timedelta(hours=5))   # Tashkent
 START = os.environ.get("START_DATE") or "2026-11-15"
@@ -89,9 +89,14 @@ def cmd_render(arg=None):
 def yt_client():
     from google.oauth2.credentials import Credentials
     from googleapiclient.discovery import build
-    creds = Credentials(None, refresh_token=os.environ["YT_REFRESH_TOKEN"],
+    def env(k):   # tolerate copy-paste extras: spaces, newlines, "NAME = value"
+        v = os.environ.get(k, "").strip()
+        if "=" in v and v.split("=", 1)[0].strip().startswith("YT_"):
+            v = v.split("=", 1)[1].strip()
+        return "".join(v.split())
+    creds = Credentials(None, refresh_token=env("YT_REFRESH_TOKEN"),
                         token_uri="https://oauth2.googleapis.com/token",
-                        client_id=os.environ["YT_CLIENT_ID"], client_secret=os.environ["YT_CLIENT_SECRET"])
+                        client_id=env("YT_CLIENT_ID"), client_secret=env("YT_CLIENT_SECRET"))
     return build("youtube", "v3", credentials=creds, cache_discovery=False)
 
 
