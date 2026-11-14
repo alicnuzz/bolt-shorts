@@ -1,0 +1,36 @@
+name: Publish Shorts (06:30 & 17:00 Tashkent)
+on:
+  schedule:
+    - cron: "20 0 * * *"     # 05:20 Toshkent -> 06:30 dagi video
+    - cron: "50 10 * * *"    # 15:50 Toshkent -> 17:00 dagi video
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: "06:30 yoki 17:00"
+        required: true
+        default: "17:00"
+concurrency: { group: publish, cancel-in-progress: false }
+jobs:
+  slot:
+    runs-on: macos-latest          # Daniel ovozi (macOS 'say') shu yerda bor
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11", cache: pip }
+      - run: brew install ffmpeg
+      - run: pip install -r requirements.txt
+      - name: Run slot
+        env:
+          TG_TOKEN: ${{ secrets.TG_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          START_DATE: ${{ vars.START_DATE }}
+        run: |
+          SLOT="${{ github.event.inputs.slot }}"
+          if [ -z "$SLOT" ]; then
+            if [ "${{ github.event.schedule }}" = "20 0 * * *" ]; then SLOT="06:30"; else SLOT="17:00"; fi
+          fi
+          python publish.py slot "$SLOT"
