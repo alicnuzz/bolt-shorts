@@ -1,0 +1,32 @@
+name: YouTube kalitini tekshirish (1 daqiqa)
+on:
+  workflow_dispatch:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: pip install -r requirements.txt
+      - name: Check
+        env:
+          TG_TOKEN: ${{ secrets.TG_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: |
+          python - <<'EOF'
+          import os, bot
+          for k in ["YT_CLIENT_ID", "YT_CLIENT_SECRET", "YT_REFRESH_TOKEN"]:
+              v = os.environ.get(k, "")
+              print(k, "length", len(v), "| has space/newline:", any(c.isspace() for c in v), "| has '=':", "=" in v)
+          cid = os.environ.get("YT_CLIENT_ID", "").strip()
+          print("client id ends with googleusercontent.com:", cid.endswith(".apps.googleusercontent.com"))
+          try:
+              ch = bot.yt_client().channels().list(part="snippet", mine=True).execute()["items"][0]["snippet"]["title"]
+              print("YOUTUBE OK:", ch); bot.say("✅ YouTube kaliti ishlayapti. Kanal: " + ch)
+          except Exception as e:
+              print("YOUTUBE ERROR:", e); bot.say("⚠️ YouTube kaliti xato: " + str(e)[:300]); raise
+          EOF
