@@ -26,12 +26,23 @@ ASK_BEFORE = datetime.timedelta(minutes=30)
 
 def stories():
     files = sorted(glob.glob(os.path.join(HERE, "stories", "*.json")))
-    return files
+    return [f for f in files if os.path.basename(f)[:2].isdigit()]     # numbered stories only
 
 
 def pick_story(slot):
+    """schedule.json ("YYYY-MM-DD HH:MM": "story-id") wins; otherwise rotate through stories/ in name order."""
     files = stories()
     today = datetime.datetime.now(TZ).date()
+    try:
+        plan = json.load(open(os.path.join(HERE, "schedule.json"), encoding="utf-8"))
+    except Exception:
+        plan = {}
+    sid = plan.get(f"{today.isoformat()} {slot}")
+    if sid:
+        f = os.path.join(HERE, "stories", sid + ".json")
+        if os.path.exists(f):
+            return f
+        print("schedule.json: story not found:", sid)
     idx = ((today - START).days * len(SLOTS) + SLOTS.index(slot)) % len(files)
     return files[idx]
 
@@ -105,9 +116,10 @@ def run_slot(slot):
     print("story:", path, "publish at", t_pub)
 
     # 1) render (Mac voice when available, otherwise Edge TTS)
-    args = [sys.executable, os.path.join(HERE, "story_video.py"), path, out]
-    args.append("--mac-voice" if sys.platform == "darwin" else "")
-    subprocess.run([a for a in args if a], check=True)
+    argv = [os.path.join(HERE, "story_video.py"), path, out] + (["--mac-voice"] if sys.platform == "darwin" else [])
+    code = ("import sys, runpy; sys.path.insert(0, %r); import tech_scenes; sys.argv = %r; "
+            "runpy.run_path(sys.argv[0], run_name='__main__')" % (HERE, argv))
+    subprocess.run([sys.executable, "-c", code], check=True, cwd=HERE)
 
     # 2) ask 30 minutes before
     sleep_until(t_ask)

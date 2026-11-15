@@ -58,9 +58,9 @@ def find_topic(tid):
 def description(t):
     tags = " ".join("#" + x.replace(" ", "").replace("'", "") for x in t["tags"][:5])
     return (f"{t['desc']}\n\n"
-            f"Every day a new short story about ancient and amazing places! "
-            f"Subscribe so you don't miss tomorrow's secret. 🔔\n\n"
-            f"{tags} #shorts #history #didyouknow")
+            f"Every day Bolt answers a new 'why' about tech, AI, cars and our amazing world! "
+            f"Subscribe so you don't miss tomorrow's answer. 🔔\n\n"
+            f"{tags} #shorts #didyouknow")
 
 
 # ------------------------------------------------------------------ render
@@ -107,7 +107,7 @@ def yt_upload(path, t):
     from googleapiclient.http import MediaFileUpload
     yt = yt_client()
     body = {
-        "snippet": {"title": t["title"][:100], "description": description(t), "tags": t["tags"] + ["shorts", "history", "did you know"],
+        "snippet": {"title": t["title"][:100], "description": description(t), "tags": t["tags"] + ["shorts", "did you know", "bolt knows why"],
                     "categoryId": "27", "defaultLanguage": "en", "defaultAudioLanguage": "en"},
         "status": {"privacyStatus": PRIVACY, "selfDeclaredMadeForKids": False},
     }
