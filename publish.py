@@ -158,7 +158,15 @@ def run_slot(slot):
 
 if __name__ == "__main__":
     if len(sys.argv) >= 3 and sys.argv[1] == "slot":
-        run_slot(sys.argv[2])
+        try:
+            run_slot(sys.argv[2])
+        except Exception as e:                      # tell the owner in Telegram, then fail the job
+            try:
+                bot.say(f"⚠️ Muammo chiqdi ({sys.argv[2]} dagi video): {type(e).__name__}: {str(e)[:600]}\n\n"
+                        f"Video chiqmagan bo'lishi mumkin. Claude chatiga shu xabarni yuboring.")
+            except Exception:
+                pass
+            raise
     elif len(sys.argv) >= 2 and sys.argv[1] == "next":
         for s in SLOTS:
             print(s, pick_story(s))
