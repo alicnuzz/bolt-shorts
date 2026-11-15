@@ -1,0 +1,31 @@
+{
+ "id": "17-ev-80-percent",
+ "title": "Why Charging Slows Down After 80% 🔋 #shorts",
+ "desc": "Your electric car and your phone charge fast to 80%, then crawl. Here's the simple reason, and a tip that saves time on every road trip.",
+ "tags": ["electric cars", "ev charging", "battery", "fast charging", "tech explained"],
+ "emph": ["eighty", "fast", "parking", "ions", "heat", "damage", "purpose", "protect", "faster"],
+ "scenes": [
+  {"bg": "scene", "landmark": "evcharger", "terrain": "city", "time": "day",
+   "text": "Why does your car, and your phone, charge super fast to eighty percent, and then crawl?",
+   "chars": [{"outfit": "bolt", "x": 0.2, "y": 0.95, "s": 0.95, "expr": "thinking", "pose": "shrug", "talk": true}],
+   "ding": true, "ding_at": 0.1, "near": false},
+  {"bg": "scene", "landmark": "parking_empty", "terrain": "city", "time": "day",
+   "text": "Think of a battery as a giant parking lot. Charging means parking countless tiny lithium ions.",
+   "chars": [{"outfit": "engineer", "x": 0.8, "y": 0.95, "s": 0.9, "expr": "happy", "pose": "point", "talk": false}], "near": false},
+  {"bg": "scene", "landmark": "battery20", "terrain": "city", "time": "dawn",
+   "text": "When the lot is almost empty, they rush in and park anywhere. That's the fast part.",
+   "chars": [{"outfit": "kid", "x": 0.8, "y": 0.95, "s": 0.9, "expr": "happy", "pose": "wave", "talk": false}], "near": false},
+  {"bg": "scene", "landmark": "parking_full", "terrain": "city", "time": "day",
+   "text": "But near eighty percent, free spots are hard to find. Push too hard, and the ions pile up outside.",
+   "chars": [], "near": false, "ding": true, "ding_at": 0.6},
+  {"bg": "scene", "landmark": "battery80", "terrain": "city", "time": "day",
+   "text": "That pile-up makes heat, and it can damage the battery forever.",
+   "chars": [{"outfit": "kid", "x": 0.8, "y": 0.95, "s": 0.9, "expr": "shocked", "pose": "panic", "talk": false}], "near": false},
+  {"bg": "scene", "landmark": "evcharger", "terrain": "city", "time": "night",
+   "text": "So the charger slows down on purpose, to protect it.",
+   "chars": [{"outfit": "engineer", "x": 0.2, "y": 0.95, "s": 0.9, "expr": "thinking", "pose": "think", "talk": false}], "near": false},
+  {"bg": "scene", "landmark": "battery100", "terrain": "city", "time": "day",
+   "text": "Road trip tip: unplug at eighty and go. It's faster! Follow Bolt for a new 'why' every day!",
+   "chars": [{"outfit": "bolt", "x": 0.2, "y": 0.95, "s": 0.95, "expr": "happy", "pose": "wave", "talk": true}], "near": false}
+ ]
+}
