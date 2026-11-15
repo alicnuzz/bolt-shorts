@@ -1,0 +1,142 @@
+{
+ "id": "18-ai-makes-things-up",
+ "title": "Why AI Sometimes Makes Things Up 🤖 #shorts",
+ "desc": "AI chatbots can sound totally sure and still be wrong. Here's the simple reason, and how to protect yourself.",
+ "tags": [
+  "ai",
+  "chatgpt",
+  "artificial intelligence",
+  "ai explained",
+  "tech explained"
+ ],
+ "emph": [
+  "wrong",
+  "predict",
+  "next",
+  "word",
+  "facts",
+  "guess",
+  "confident",
+  "check",
+  "sources"
+ ],
+ "scenes": [
+  {
+   "bg": "scene",
+   "landmark": "chat",
+   "terrain": "city",
+   "time": "day",
+   "text": "Why does AI sometimes give you an answer that sounds perfect, but is completely wrong?",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.2,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "thinking",
+     "pose": "shrug",
+     "talk": true
+    }
+   ],
+   "near": false,
+   "ding": true,
+   "ding_at": 0.1
+  },
+  {
+   "bg": "scene",
+   "landmark": "nextword",
+   "terrain": "city",
+   "time": "day",
+   "text": "A chatbot doesn't look facts up in a book. It predicts the next word, one word at a time.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.82,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "happy",
+     "pose": "point",
+     "talk": false
+    }
+   ],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "nextword",
+   "terrain": "city",
+   "time": "dawn",
+   "text": "It learned from huge amounts of text, so most of the time its best guess is right.",
+   "chars": [],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "chat_bad",
+   "terrain": "city",
+   "time": "day",
+   "text": "But when it doesn't really know, it still guesses, and the guess sounds just as confident.",
+   "chars": [
+    {
+     "outfit": "kid",
+     "x": 0.82,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "shocked",
+     "pose": "panic",
+     "talk": false
+    }
+   ],
+   "near": false,
+   "ding": true,
+   "ding_at": 0.8
+  },
+  {
+   "bg": "scene",
+   "landmark": "chat_bad",
+   "terrain": "city",
+   "time": "day",
+   "text": "It can even invent names, numbers, and quotes that never existed.",
+   "chars": [],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "chat_ok",
+   "terrain": "city",
+   "time": "day",
+   "text": "So for anything important, ask for sources, and check them yourself.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.2,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "happy",
+     "pose": "point",
+     "talk": false
+    }
+   ],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "chat_ok",
+   "terrain": "city",
+   "time": "day",
+   "text": "Use AI like a smart helper, not a final judge. Follow Bolt for a new 'why' every day!",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.2,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "wave",
+     "talk": true
+    }
+   ],
+   "near": false
+  }
+ ]
+}

@@ -1,0 +1,141 @@
+{
+ "id": "19-ev-instant-torque",
+ "title": "Why Electric Cars Launch So Fast ⚡ #shorts",
+ "desc": "A quiet family electric car can beat a roaring sports car off the line. The reason is one simple thing: instant torque.",
+ "tags": [
+  "electric cars",
+  "ev",
+  "cars explained",
+  "torque",
+  "tech explained"
+ ],
+ "emph": [
+  "instant",
+  "torque",
+  "zero",
+  "rev",
+  "gears",
+  "waiting",
+  "full",
+  "power"
+ ],
+ "scenes": [
+  {
+   "bg": "scene",
+   "landmark": "dragstrip",
+   "terrain": "city",
+   "time": "day",
+   "text": "Why can a quiet electric family car beat a roaring sports car off the line?",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.2,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "thinking",
+     "pose": "shrug",
+     "talk": true
+    }
+   ],
+   "near": false,
+   "ding": true,
+   "ding_at": 0.1
+  },
+  {
+   "bg": "scene",
+   "landmark": "torque_low",
+   "terrain": "city",
+   "time": "day",
+   "text": "A gas engine is weak at low speed. It has to rev up before it makes its full pulling power.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.82,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "thinking",
+     "pose": "think",
+     "talk": false
+    }
+   ],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "torque_low",
+   "terrain": "city",
+   "time": "dawn",
+   "text": "And it must keep shifting gears to stay in that sweet spot.",
+   "chars": [],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "torque_full",
+   "terrain": "city",
+   "time": "day",
+   "text": "An electric motor is different. It gives full pulling power, called torque, from zero.",
+   "chars": [
+    {
+     "outfit": "kid",
+     "x": 0.82,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "shocked",
+     "pose": "panic",
+     "talk": false
+    }
+   ],
+   "near": false,
+   "ding": true,
+   "ding_at": 1
+  },
+  {
+   "bg": "scene",
+   "landmark": "dragstrip",
+   "terrain": "city",
+   "time": "day",
+   "text": "No revving, no shifting, no waiting. You press the pedal, and all of it arrives instantly.",
+   "chars": [],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "evcharger",
+   "terrain": "city",
+   "time": "night",
+   "text": "That's why even heavy electric cars feel like a rocket at a green light.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.2,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "happy",
+     "pose": "point",
+     "talk": false
+    }
+   ],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "dragstrip",
+   "terrain": "city",
+   "time": "day",
+   "text": "Now you know the secret of instant torque! Follow Bolt for a new 'why' every day!",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.2,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "wave",
+     "talk": true
+    }
+   ],
+   "near": false
+  }
+ ]
+}

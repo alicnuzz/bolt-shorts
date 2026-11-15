@@ -1,0 +1,142 @@
+{
+ "id": "20-internet-under-the-ocean",
+ "title": "The Internet Is Actually Under the Ocean 🌊 #shorts",
+ "desc": "Almost all international internet traffic travels through cables on the sea floor, not satellites. Here's how it works.",
+ "tags": [
+  "internet",
+  "undersea cables",
+  "how it works",
+  "technology",
+  "did you know"
+ ],
+ "emph": [
+  "ocean",
+  "cables",
+  "satellites",
+  "glass",
+  "light",
+  "hose",
+  "million",
+  "ships",
+  "floor"
+ ],
+ "scenes": [
+  {
+   "bg": "scene",
+   "landmark": "globe",
+   "terrain": "city",
+   "time": "day",
+   "text": "When you watch a video from another continent, how does it reach you? Not from space!",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.2,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "thinking",
+     "pose": "shrug",
+     "talk": true
+    }
+   ],
+   "near": false,
+   "ding": true,
+   "ding_at": 0.1
+  },
+  {
+   "bg": "scene",
+   "landmark": "globe",
+   "terrain": "city",
+   "time": "day",
+   "text": "Almost all international internet traffic travels through cables lying on the ocean floor.",
+   "chars": [
+    {
+     "outfit": "kid",
+     "x": 0.82,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "shocked",
+     "pose": "panic",
+     "talk": false
+    }
+   ],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "cablecut",
+   "terrain": "city",
+   "time": "day",
+   "text": "Inside each cable are glass fibers as thin as a hair, carrying your data as flashes of light.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.82,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "happy",
+     "pose": "point",
+     "talk": false
+    }
+   ],
+   "near": false,
+   "ding": true,
+   "ding_at": 0.5
+  },
+  {
+   "bg": "scene",
+   "landmark": "cablecut",
+   "terrain": "city",
+   "time": "dawn",
+   "text": "In the deep sea, the whole cable is only about as thick as a garden hose.",
+   "chars": [],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "cableship",
+   "terrain": "sea",
+   "time": "day",
+   "text": "Special ships slowly lay them across entire oceans.",
+   "chars": [],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "globe",
+   "terrain": "city",
+   "time": "night",
+   "text": "Today there are hundreds of them, more than a million kilometers in total.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.2,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "thinking",
+     "pose": "think",
+     "talk": false
+    }
+   ],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "cableship",
+   "terrain": "sea",
+   "time": "day",
+   "text": "So the cloud is really under the sea! Follow Bolt for a new 'why' every day!",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.2,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "wave",
+     "talk": true
+    }
+   ],
+   "near": false
+  }
+ ]
+}
