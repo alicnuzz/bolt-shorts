@@ -120,3 +120,4 @@ mv.LANDMARKS.update({
     "battery100": lambda *a: lm_battery(*a, level=1.0),
     "parking_empty": lambda *a: lm_parking(*a, filled=0.2), "parking_full": lambda *a: lm_parking(*a, filled=0.87),
 })
+import scenes_more
