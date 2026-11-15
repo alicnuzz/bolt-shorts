@@ -1,0 +1,31 @@
+name: Render check (video yasab ko'rish, hech narsa yuklamaydi)
+on:
+  workflow_dispatch:
+jobs:
+  render:
+    runs-on: macos-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11", cache: pip }
+      - run: brew install ffmpeg
+      - run: pip install -r requirements.txt
+      - name: Render the story planned for the next 17:00 slot (no Telegram, no YouTube)
+        env:
+          TG_TOKEN: dummy
+          TG_CHAT_ID: "0"
+        run: |
+          python - <<'EOF'
+          import os, sys, subprocess, publish as p
+          path = p.pick_story("17:00"); out = os.path.join(p.HERE, "out", "check.mp4")
+          os.makedirs(os.path.dirname(out), exist_ok=True)
+          print("story:", path)
+          argv = [os.path.join(p.HERE, "story_video.py"), path, out, "--mac-voice"]
+          code = ("import sys, runpy; sys.path.insert(0, %r); import tech_scenes; sys.argv = %r; "
+                  "runpy.run_path(sys.argv[0], run_name='__main__')" % (p.HERE, argv))
+          subprocess.run([sys.executable, "-c", code], check=True, cwd=p.HERE)
+          print("RENDER OK", os.path.getsize(out), "bytes")
+          EOF
+      - uses: actions/upload-artifact@v4
+        with: { name: check-video, path: out/check.mp4 }
