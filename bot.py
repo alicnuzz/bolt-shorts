@@ -103,6 +103,18 @@ def yt_client():
     return build("youtube", "v3", credentials=creds, cache_discovery=False)
 
 
+def recent_upload(title):
+    """Return the video id if a video with this title was among our last uploads (avoids duplicates on retries)."""
+    yt = yt_client()
+    ch = yt.channels().list(part="contentDetails", mine=True).execute()["items"][0]
+    up = ch["contentDetails"]["relatedPlaylists"]["uploads"]
+    items = yt.playlistItems().list(part="snippet", playlistId=up, maxResults=6).execute().get("items", [])
+    for it in items:
+        if it["snippet"]["title"].strip() == title[:100].strip():
+            return it["snippet"]["resourceId"]["videoId"]
+    return None
+
+
 def yt_upload(path, t):
     from googleapiclient.http import MediaFileUpload
     yt = yt_client()

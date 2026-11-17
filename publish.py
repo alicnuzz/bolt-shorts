@@ -51,7 +51,7 @@ def slot_datetime(slot):
     h, m = map(int, slot.split(":"))
     now = datetime.datetime.now(TZ)
     t = now.replace(hour=h, minute=m, second=0, microsecond=0)
-    if t < now - datetime.timedelta(hours=2):        # job started after midnight for tomorrow's slot
+    if t < now - datetime.timedelta(hours=2) and not os.environ.get("LATE_OK"):   # started after midnight for tomorrow's slot
         t += datetime.timedelta(days=1)
     return t
 
@@ -144,7 +144,14 @@ def run_slot(slot):
         return
     sleep_until(t_pub)
 
-    # 4) publish
+    # 4) publish (skip if a retry finds it already uploaded)
+    try:
+        done = bot.recent_upload(story["title"])
+    except Exception as e:
+        print("recent_upload check failed:", e); done = None
+    if done:
+        bot.say(f"ℹ️ Bu video allaqachon chiqqan: https://youtube.com/shorts/{done}", reply_to_message_id=mid)
+        return
     try:
         vid, status = bot.yt_upload(out, story)
     except Exception as e:
