@@ -1,0 +1,143 @@
+{
+ "id": "21-ai-data-centers-thirsty",
+ "title": "Why AI Needs So Much Electricity and Water 💧 #shorts",
+ "desc": "Every AI answer runs on giant buildings full of computers. Here's why they use so much power, and why they get so thirsty.",
+ "tags": [
+  "ai",
+  "data center",
+  "artificial intelligence",
+  "electricity",
+  "tech explained"
+ ],
+ "emph": [
+  "electricity",
+  "water",
+  "heat",
+  "chips",
+  "cool",
+  "thirsty",
+  "power",
+  "giant"
+ ],
+ "scenes": [
+  {
+   "bg": "scene",
+   "landmark": "chat",
+   "terrain": "city",
+   "time": "day",
+   "text": "When you ask AI a question, where does the answer actually come from?",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.2,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "thinking",
+     "pose": "shrug",
+     "talk": true
+    }
+   ],
+   "near": false,
+   "ding": true,
+   "ding_at": 0.1
+  },
+  {
+   "bg": "scene",
+   "landmark": "servers",
+   "terrain": "city",
+   "time": "day",
+   "text": "From giant buildings called data centers, packed with thousands of powerful computer chips.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.82,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "happy",
+     "pose": "point",
+     "talk": false
+    }
+   ],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "power_city",
+   "terrain": "city",
+   "time": "night",
+   "text": "Those chips run all day and night, and together they can use as much electricity as a small city.",
+   "chars": [
+    {
+     "outfit": "kid",
+     "x": 0.82,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "shocked",
+     "pose": "panic",
+     "talk": false
+    }
+   ],
+   "near": false,
+   "ding": true,
+   "ding_at": 1.2
+  },
+  {
+   "bg": "scene",
+   "landmark": "servers_hot",
+   "terrain": "city",
+   "time": "day",
+   "text": "Almost all that electricity turns into heat. Without cooling, the chips would overheat in minutes.",
+   "chars": [],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "cooling",
+   "terrain": "city",
+   "time": "day",
+   "text": "So many data centers cool them with water, and some of it evaporates away, just like sweat.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.2,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "thinking",
+     "pose": "think",
+     "talk": false
+    }
+   ],
+   "near": false,
+   "ding": true,
+   "ding_at": 0.8
+  },
+  {
+   "bg": "scene",
+   "landmark": "cooling",
+   "terrain": "city",
+   "time": "dawn",
+   "text": "That's why companies now race to build cooler, greener data centers.",
+   "chars": [],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "servers",
+   "terrain": "city",
+   "time": "day",
+   "text": "Every answer has a real cost in power and water! Follow Bolt for a new 'why' every day!",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.2,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "wave",
+     "talk": true
+    }
+   ],
+   "near": false
+  }
+ ]
+}

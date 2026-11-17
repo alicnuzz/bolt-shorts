@@ -1,0 +1,142 @@
+{
+ "id": "23-why-sky-is-blue",
+ "title": "Why Is the Sky Blue? (And Sunsets Red) 🌅 #shorts",
+ "desc": "It's the most searched science question on Google. Here's the simple answer, and why the same reason makes sunsets red.",
+ "tags": [
+  "why is the sky blue",
+  "science",
+  "physics",
+  "sunset",
+  "did you know"
+ ],
+ "emph": [
+  "blue",
+  "all",
+  "colors",
+  "air",
+  "short",
+  "scatter",
+  "everywhere",
+  "red",
+  "sunset"
+ ],
+ "scenes": [
+  {
+   "bg": "scene",
+   "landmark": "skyline_low",
+   "terrain": "city",
+   "time": "day",
+   "text": "Why is the sky blue, and not white, like the sunlight?",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.2,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "thinking",
+     "pose": "shrug",
+     "talk": true
+    }
+   ],
+   "near": false,
+   "ding": true,
+   "ding_at": 0.1
+  },
+  {
+   "bg": "scene",
+   "landmark": "sunrays",
+   "terrain": "city",
+   "time": "day",
+   "text": "Sunlight looks white, but it's really all the colors of the rainbow mixed together.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.82,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "happy",
+     "pose": "point",
+     "talk": false
+    }
+   ],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "waves",
+   "terrain": "city",
+   "time": "day",
+   "text": "Each color travels as a wave. Blue light has short waves. Red light has long waves.",
+   "chars": [],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "sunrays",
+   "terrain": "city",
+   "time": "day",
+   "text": "When sunlight hits the tiny molecules of air, the short blue waves get bounced around the most.",
+   "chars": [
+    {
+     "outfit": "kid",
+     "x": 0.82,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "shocked",
+     "pose": "panic",
+     "talk": false
+    }
+   ],
+   "near": false,
+   "ding": true,
+   "ding_at": 1.4
+  },
+  {
+   "bg": "scene",
+   "landmark": "sunrays",
+   "terrain": "city",
+   "time": "dawn",
+   "text": "So blue light reaches your eyes from every direction, and the whole sky looks blue.",
+   "chars": [],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "sunrays_sunset",
+   "terrain": "city",
+   "time": "sunset",
+   "text": "At sunset, light travels through much more air. Most of the blue is scattered away, and red and orange are left.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.2,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "thinking",
+     "pose": "think",
+     "talk": false
+    }
+   ],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "skyline_low",
+   "terrain": "city",
+   "time": "sunset",
+   "text": "Same air, two beautiful colors! Follow Bolt for a new 'why' every day!",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.2,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "wave",
+     "talk": true
+    }
+   ],
+   "near": false
+  }
+ ]
+}

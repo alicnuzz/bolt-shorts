@@ -1,0 +1,141 @@
+{
+ "id": "22-how-self-driving-cars-see",
+ "title": "How Self-Driving Cars See the Road 🚗 #shorts",
+ "desc": "A robotaxi has no human eyes, so how does it spot a person crossing the street? It uses three different senses at once.",
+ "tags": [
+  "self driving cars",
+  "robotaxi",
+  "lidar",
+  "ai",
+  "cars explained"
+ ],
+ "emph": [
+  "see",
+  "camera",
+  "radar",
+  "lidar",
+  "laser",
+  "3D",
+  "together",
+  "million"
+ ],
+ "scenes": [
+  {
+   "bg": "scene",
+   "landmark": "selfdrive_plain",
+   "terrain": "city",
+   "time": "day",
+   "text": "A car with no driver. How does it know a person is crossing the street?",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.2,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "thinking",
+     "pose": "shrug",
+     "talk": true
+    }
+   ],
+   "near": false,
+   "ding": true,
+   "ding_at": 0.1
+  },
+  {
+   "bg": "scene",
+   "landmark": "sensors",
+   "terrain": "city",
+   "time": "day",
+   "text": "It uses three kinds of senses at the same time.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.82,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "happy",
+     "pose": "point",
+     "talk": false
+    }
+   ],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "sensors",
+   "terrain": "city",
+   "time": "day",
+   "text": "Cameras read colors, traffic lights and signs. Radar measures speed, even in rain or fog.",
+   "chars": [],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "selfdrive",
+   "terrain": "city",
+   "time": "day",
+   "text": "And lidar spins and shoots invisible laser beams, measuring distance by how fast they bounce back.",
+   "chars": [
+    {
+     "outfit": "kid",
+     "x": 0.82,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "shocked",
+     "pose": "panic",
+     "talk": false
+    }
+   ],
+   "near": false,
+   "ding": true,
+   "ding_at": 1.0
+  },
+  {
+   "bg": "scene",
+   "landmark": "pointcloud",
+   "terrain": "city",
+   "time": "night",
+   "text": "It builds a 3D map made of millions of dots, many times every second.",
+   "chars": [],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "selfdrive",
+   "terrain": "city",
+   "time": "day",
+   "text": "Then AI mixes all three, so if one sense is fooled, the others can still catch it.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.2,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "thinking",
+     "pose": "think",
+     "talk": false
+    }
+   ],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "selfdrive",
+   "terrain": "city",
+   "time": "day",
+   "text": "Three senses, one careful driver! Follow Bolt for a new 'why' every day!",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.2,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "wave",
+     "talk": true
+    }
+   ],
+   "near": false
+  }
+ ]
+}
