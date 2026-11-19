@@ -34,7 +34,7 @@ jobs:
   retry:                           # Mac server topilmasa yoki xato bo'lsa: qayta urinish
     needs: slot
     if: ${{ always() && needs.slot.result != 'success' }}
-    runs-on: macos-latest
+    runs-on: macos-15-intel        # boshqa turdagi Mac (arm64 band bo'lsa)
     timeout-minutes: 120
     env: { LATE_OK: "1" }
     steps:
