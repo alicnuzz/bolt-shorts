@@ -1,0 +1,112 @@
+{
+ "id": "27-why-planes-fly-high",
+ "title": "Why Do Planes Fly So High? ✈️ #shorts",
+ "desc": "Airliners cruise about 10 kilometers up. It isn't for the view. Here's why flying high saves fuel and makes the ride smoother.",
+ "tags": [
+  "airplanes",
+  "aviation",
+  "how planes fly",
+  "science",
+  "did you know"
+ ],
+ "emph": [
+  "high",
+  "thin",
+  "air",
+  "fuel",
+  "weather",
+  "above",
+  "smoother"
+ ],
+ "scenes": [
+  {
+   "bg": "scene",
+   "landmark": "plane_high",
+   "terrain": "city",
+   "time": "day",
+   "text": "Why do planes fly ten kilometers up? It's not for the view.",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.2,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "thinking",
+     "pose": "shrug",
+     "talk": true
+    }
+   ],
+   "near": false,
+   "ding": true,
+   "ding_at": 0.05
+  },
+  {
+   "bg": "scene",
+   "landmark": "plane_low",
+   "terrain": "city",
+   "time": "day",
+   "text": "Down low, the air is thick. Pushing through it is like running in water.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.82,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "thinking",
+     "pose": "think",
+     "talk": false
+    }
+   ],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "plane_high",
+   "terrain": "city",
+   "time": "day",
+   "text": "High up, the air is thin. Less drag means much less fuel.",
+   "chars": [
+    {
+     "outfit": "kid",
+     "x": 0.82,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "happy",
+     "pose": "wave",
+     "talk": false
+    }
+   ],
+   "near": false,
+   "ding": true,
+   "ding_at": 0.5
+  },
+  {
+   "bg": "scene",
+   "landmark": "plane_high",
+   "terrain": "city",
+   "time": "sunset",
+   "text": "And most storms and bumpy weather stay below, so the ride is smoother.",
+   "chars": [],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "plane_high",
+   "terrain": "city",
+   "time": "sunset",
+   "text": "Higher means cheaper and calmer! Follow for more!",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.2,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "wave",
+     "talk": true
+    }
+   ],
+   "near": false
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "id": "26-top3-battery-drain",
+ "title": "Top 3 Things Killing Your Phone Battery 🔋 #shorts",
+ "desc": "Your phone battery dies too fast? These three things drain it the most, and number one surprises everyone.",
+ "tags": [
+  "phone battery",
+  "battery tips",
+  "smartphone",
+  "tech tips",
+  "did you know"
+ ],
+ "emph": [
+  "three",
+  "signal",
+  "brightness",
+  "screen",
+  "location",
+  "harder",
+  "lower"
+ ],
+ "scenes": [
+  {
+   "bg": "scene",
+   "landmark": "battery20",
+   "terrain": "city",
+   "time": "day",
+   "text": "Three things killing your phone battery. Number one surprises everyone.",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.2,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "shocked",
+     "pose": "panic",
+     "talk": true
+    }
+   ],
+   "near": false,
+   "ding": true,
+   "ding_at": 0.05
+  },
+  {
+   "bg": "scene",
+   "landmark": "gps",
+   "terrain": "city",
+   "time": "day",
+   "text": "Number three: apps checking your location in the background. Limit them in settings.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.82,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "happy",
+     "pose": "point",
+     "talk": false
+    }
+   ],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "brightness",
+   "terrain": "city",
+   "time": "day",
+   "text": "Number two: the screen. It's often the biggest user. Lower brightness, or use dark mode.",
+   "chars": [],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "tower_weak",
+   "terrain": "city",
+   "time": "day",
+   "text": "Number one: weak signal. Your phone shouts louder to reach the tower, and drains fast.",
+   "chars": [
+    {
+     "outfit": "kid",
+     "x": 0.82,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "shocked",
+     "pose": "panic",
+     "talk": false
+    }
+   ],
+   "near": false,
+   "ding": true,
+   "ding_at": 0.4
+  },
+  {
+   "bg": "scene",
+   "landmark": "battery100",
+   "terrain": "city",
+   "time": "day",
+   "text": "No signal? Turn on airplane mode. Follow for more!",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.2,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "wave",
+     "talk": true
+    }
+   ],
+   "near": false
+  }
+ ]
+}

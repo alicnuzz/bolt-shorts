@@ -1,0 +1,112 @@
+{
+ "id": "24-myth-warm-up-car",
+ "title": "MYTH: You Must Warm Up Your Car in Winter ❄️ #shorts",
+ "desc": "Letting your car idle for 10 minutes on a cold morning? You're wasting fuel. Here's what engineers actually recommend.",
+ "tags": [
+  "car tips",
+  "winter driving",
+  "myth busting",
+  "cars explained",
+  "did you know"
+ ],
+ "emph": [
+  "myth",
+  "idling",
+  "thirty",
+  "seconds",
+  "gently",
+  "faster",
+  "fuel"
+ ],
+ "scenes": [
+  {
+   "bg": "scene",
+   "landmark": "snowcar",
+   "terrain": "snow",
+   "time": "day",
+   "text": "Stop warming up your car for ten minutes. It's a myth.",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.2,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "shocked",
+     "pose": "panic",
+     "talk": true
+    }
+   ],
+   "near": false,
+   "ding": true,
+   "ding_at": 0.05
+  },
+  {
+   "bg": "scene",
+   "landmark": "myth",
+   "terrain": "snow",
+   "time": "day",
+   "text": "That advice came from old cars with carburetors, decades ago.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.82,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "thinking",
+     "pose": "think",
+     "talk": false
+    }
+   ],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "thermo_cold",
+   "terrain": "snow",
+   "time": "dawn",
+   "text": "Modern engines need about thirty seconds, then you can drive gently.",
+   "chars": [],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "thermo_warm",
+   "terrain": "snow",
+   "time": "day",
+   "text": "Driving warms the engine much faster than idling, and saves fuel.",
+   "chars": [
+    {
+     "outfit": "kid",
+     "x": 0.82,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "happy",
+     "pose": "wave",
+     "talk": false
+    }
+   ],
+   "near": false,
+   "ding": true,
+   "ding_at": 0.6
+  },
+  {
+   "bg": "scene",
+   "landmark": "fact",
+   "terrain": "snow",
+   "time": "day",
+   "text": "Just go easy for the first few minutes. Follow for more!",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.2,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "wave",
+     "talk": true
+    }
+   ],
+   "near": false
+  }
+ ]
+}

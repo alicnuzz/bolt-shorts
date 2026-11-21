@@ -1,0 +1,112 @@
+{
+ "id": "25-myth-airplane-mode",
+ "title": "Can Your Phone Really Crash a Plane? ✈️ #shorts",
+ "desc": "Why do airlines ask for airplane mode if one phone can't bring a plane down? The real reason is a sound only pilots hear.",
+ "tags": [
+  "airplane mode",
+  "flying",
+  "phones",
+  "myth busting",
+  "did you know"
+ ],
+ "emph": [
+  "crash",
+  "no",
+  "buzz",
+  "pilots",
+  "radio",
+  "thousands",
+  "towers"
+ ],
+ "scenes": [
+  {
+   "bg": "scene",
+   "landmark": "plane_low",
+   "terrain": "city",
+   "time": "day",
+   "text": "Can one phone crash a plane? No. So why airplane mode?",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.2,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "thinking",
+     "pose": "shrug",
+     "talk": true
+    }
+   ],
+   "near": false,
+   "ding": true,
+   "ding_at": 0.05
+  },
+  {
+   "bg": "scene",
+   "landmark": "myth",
+   "terrain": "city",
+   "time": "day",
+   "text": "No crash has ever been proven to be caused by a passenger's phone.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.82,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "thinking",
+     "pose": "think",
+     "talk": false
+    }
+   ],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "tower_weak",
+   "terrain": "city",
+   "time": "day",
+   "text": "But a phone searching for signal sends strong bursts that can cause a buzzing sound in pilots' radio headsets.",
+   "chars": [
+    {
+     "outfit": "kid",
+     "x": 0.82,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "shocked",
+     "pose": "panic",
+     "talk": false
+    }
+   ],
+   "near": false,
+   "ding": true,
+   "ding_at": 1.2
+  },
+  {
+   "bg": "scene",
+   "landmark": "tower_full",
+   "terrain": "city",
+   "time": "day",
+   "text": "And phones zooming past towers at plane speed can confuse networks on the ground.",
+   "chars": [],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "fact",
+   "terrain": "city",
+   "time": "day",
+   "text": "So it's not danger, it's noise. Follow for more!",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.2,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "wave",
+     "talk": true
+    }
+   ],
+   "near": false
+  }
+ ]
+}
