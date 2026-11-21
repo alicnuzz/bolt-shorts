@@ -127,3 +127,4 @@ mv.LANDMARKS.update({
     "sunrays": lm_sunrays, "sunrays_sunset": lambda *a: lm_sunrays(*a, sunset=True), "waves": lm_waves,
     "skyline_low": lm_sunset,
 })
+import scenes_more3
