@@ -118,3 +118,12 @@ mv.LANDMARKS.update({
     "tower_weak": lambda *a: lm_tower(*a, bars=1), "tower_full": lambda *a: lm_tower(*a, bars=4),
     "phone_hot": lm_phone_hot, "brightness": lm_brightness, "gps": lm_gps,
 })
+
+def lm_yesno(img, d, cx, by, sc, ctx, a="YES", b="NO"):
+    d.text((cx, by - 1010), "COMMENT", font=mv.font(120), fill=(255, 214, 64), anchor="mm", stroke_width=10, stroke_fill=(30, 36, 54))
+    for x0, word, col in ((cx - 420, a, (40, 190, 110)), (cx + 20, b, (230, 60, 60))):
+        d.rounded_rectangle([x0 + 8, by - 892, x0 + 408, by - 692], 90, fill=mv.dk(col, 0.6))
+        d.rounded_rectangle([x0, by - 900, x0 + 400, by - 700], 90, fill=col)
+        _txt(d, x0 + 200, by - 800, word, 120, (255, 255, 255))
+
+mv.LANDMARKS.update({"yesno": lm_yesno})

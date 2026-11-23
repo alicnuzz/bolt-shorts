@@ -57,7 +57,8 @@ def find_topic(tid):
 
 def description(t):
     tags = " ".join("#" + x.replace(" ", "").replace("'", "") for x in t["tags"][:5])
-    return (f"{t['desc']}\n\n"
+    q = (t["question"] + "\n\n") if t.get("question") else ""
+    return (f"{q}{t['desc']}\n\n"
             f"Every day Bolt answers a new 'why' about tech, AI, cars and our amazing world! "
             f"Subscribe so you don't miss tomorrow's answer. 🔔\n\n"
             f"{tags} #shorts #didyouknow")
@@ -114,6 +115,23 @@ def recent_upload(title):
             return it["snippet"]["resourceId"]["videoId"]
     return None
 
+
+
+def recent_titles(n=50):
+    """Titles of our latest uploads (to pick a story that is not on the channel yet)."""
+    yt = yt_client()
+    ch = yt.channels().list(part="contentDetails", mine=True).execute()["items"][0]
+    up = ch["contentDetails"]["relatedPlaylists"]["uploads"]
+    items = yt.playlistItems().list(part="snippet", playlistId=up, maxResults=min(n, 50)).execute().get("items", [])
+    return {it["snippet"]["title"].strip() for it in items}
+
+
+def post_comment(video_id, text):
+    """Channel's first comment under the video (needs the youtube.force-ssl scope, raises if not allowed)."""
+    yt = yt_client()
+    yt.commentThreads().insert(part="snippet", body={"snippet": {"videoId": video_id,
+        "topLevelComment": {"snippet": {"textOriginal": text}}}}).execute()
+    return True
 
 def yt_upload(path, t):
     from googleapiclient.http import MediaFileUpload

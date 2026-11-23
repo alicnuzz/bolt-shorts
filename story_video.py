@@ -612,7 +612,7 @@ def render(story, out, use_tts=True):
         raise RuntimeError("ffmpeg failed")
     return total
 
-def make_mac_voice(story, outdir, voice="Daniel", rate=180):
+def make_mac_voice(story, outdir, voice="Daniel", rate=195):
     """macOS only: one AIFF per scene line with the built-in 'say' voice (channel voice = Daniel)."""
     os.makedirs(outdir, exist_ok=True)
     for i, sc in enumerate(story["scenes"], 1):

@@ -43,6 +43,22 @@ def pick_story(slot):
         if os.path.exists(f):
             return f
         print("schedule.json: story not found:", sid)
+    later = {v for k, v in plan.items() if k > f"{today.isoformat()} {slot}"}
+    try:                                    # no plan for this slot: newest story that is not on the channel yet
+        done = bot.recent_titles(50)
+        for f in reversed(files):
+            sid = os.path.basename(f)[:-5]
+            if sid in later:
+                continue
+            if json.load(open(f, encoding="utf-8"))["title"][:100].strip() not in done:
+                print("no plan for this slot, using a new story:", f)
+                return f
+        try:
+            bot.say(f"⚠️ {slot} uchun yangi video qolmadi, eski video qayta chiqadi. Claude'ga yangi plan tuzishini ayting.")
+        except Exception:
+            pass
+    except Exception as e:
+        print("recent_titles failed:", e)
     idx = ((today - START).days * len(SLOTS) + SLOTS.index(slot)) % len(files)
     return files[idx]
 
@@ -161,6 +177,15 @@ def run_slot(slot):
     how = "tasdiqlangan" if ans == "ok" else "javob bo'lmagani uchun avtomatik"
     bot.say(f"✅ Chiqdi ({how})\n🎬 {story['title']}\n🔗 https://youtube.com/shorts/{vid}\n🔒 Holat: {status}",
             reply_to_message_id=mid)
+    q = story.get("question")
+    if q:
+        try:
+            bot.post_comment(vid, q)
+            bot.say(f"💬 Birinchi izoh yozildi. YouTube'da uni 📌 pin qilib qo'ying:\n{q}", reply_to_message_id=mid)
+        except Exception as e:
+            print("comment failed:", e)
+            bot.say(f"💬 Shu savolni videoga izoh qilib yozing va 📌 pin qiling (izohlar ko'payadi):\n\n{q}",
+                    reply_to_message_id=mid)
 
 
 if __name__ == "__main__":
