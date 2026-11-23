@@ -94,7 +94,7 @@
    "landmark": "plane_high",
    "terrain": "city",
    "time": "sunset",
-   "text": "Higher means cheaper and calmer! Follow for more!",
+   "text": "Higher means cheaper and calmer! Window or aisle? Comment below!",
    "chars": [
     {
      "outfit": "bolt",
@@ -108,5 +108,6 @@
    ],
    "near": false
   }
- ]
+ ],
+ "question": "💬 Window seat or aisle seat? Tell us in the comments 👇"
 }

@@ -91,10 +91,10 @@
   },
   {
    "bg": "scene",
-   "landmark": "fact",
+   "landmark": "yesno",
    "terrain": "snow",
    "time": "day",
-   "text": "Just go easy for the first few minutes. Follow for more!",
+   "text": "Do you still warm up your car? Comment YES or NO!",
    "chars": [
     {
      "outfit": "bolt",
@@ -108,5 +108,6 @@
    ],
    "near": false
   }
- ]
+ ],
+ "question": "💬 Do you still warm up your car in winter? Comment YES or NO 👇"
 }

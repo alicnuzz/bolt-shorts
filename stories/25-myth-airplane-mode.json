@@ -91,10 +91,10 @@
   },
   {
    "bg": "scene",
-   "landmark": "fact",
+   "landmark": "yesno",
    "terrain": "city",
    "time": "day",
-   "text": "So it's not danger, it's noise. Follow for more!",
+   "text": "So it's not danger, it's noise. Do you use airplane mode? Comment YES or NO!",
    "chars": [
     {
      "outfit": "bolt",
@@ -108,5 +108,6 @@
    ],
    "near": false
   }
- ]
+ ],
+ "question": "💬 Do you switch on airplane mode when you fly? Comment YES or NO 👇"
 }

@@ -1,0 +1,121 @@
+{
+ "id": "28-top3-why-games-are-huge",
+ "title": "Why Are New Games 200 GB? 🎮 #shorts",
+ "desc": "Some new games need over 200 gigabytes. Here are the 3 real reasons game files got so huge.",
+ "tags": [
+  "video games",
+  "gaming",
+  "storage",
+  "tech facts",
+  "did you know"
+ ],
+ "emph": [
+  "200",
+  "textures",
+  "languages",
+  "faster",
+  "comment"
+ ],
+ "question": "💬 How much free space does your console or PC have right now? Tell us 👇",
+ "scenes": [
+  {
+   "bg": "scene",
+   "landmark": "servers",
+   "terrain": "city",
+   "time": "day",
+   "text": "Some new games need over two hundred gigabytes. Why so huge?",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.2,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "shocked",
+     "pose": "shrug",
+     "talk": true
+    }
+   ],
+   "near": false,
+   "ding": true,
+   "ding_at": 0.05
+  },
+  {
+   "bg": "scene",
+   "landmark": "num3",
+   "terrain": "city",
+   "time": "day",
+   "text": "Number three: sound. Voices in many languages, all packed in, in high quality.",
+   "chars": [
+    {
+     "outfit": "kid",
+     "x": 0.82,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "thinking",
+     "pose": "think",
+     "talk": false
+    }
+   ],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "num2",
+   "terrain": "city",
+   "time": "day",
+   "text": "Number two: some files are stored uncompressed, so the game loads faster.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.82,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "thinking",
+     "pose": "think",
+     "talk": false
+    }
+   ],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "num1",
+   "terrain": "city",
+   "time": "day",
+   "text": "Number one: super sharp 4K textures. Every wall, face and leaf is a giant image.",
+   "chars": [
+    {
+     "outfit": "kid",
+     "x": 0.82,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "shocked",
+     "pose": "panic",
+     "talk": false
+    }
+   ],
+   "near": false,
+   "ding": true,
+   "ding_at": 0.6
+  },
+  {
+   "bg": "scene",
+   "landmark": "yesno",
+   "terrain": "city",
+   "time": "day",
+   "text": "Sharper worlds mean bigger files. Would you download it? Comment YES or NO!",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.2,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "wave",
+     "talk": true
+    }
+   ],
+   "near": false
+  }
+ ]
+}
