@@ -1,0 +1,120 @@
+{
+ "id": "31-myth-closing-apps",
+ "title": "Closing Apps Does NOT Save Battery 📱 #shorts",
+ "desc": "Swiping away all your apps feels helpful, but it can actually use more battery. Here's why.",
+ "tags": [
+  "phone tips",
+  "battery",
+  "apps",
+  "myth busting",
+  "did you know"
+ ],
+ "emph": [
+  "closing",
+  "more",
+  "frozen",
+  "restart"
+ ],
+ "question": "💬 Do you swipe away all your apps? Comment YES or NO 👇",
+ "scenes": [
+  {
+   "bg": "scene",
+   "landmark": "battery20",
+   "terrain": "city",
+   "time": "day",
+   "text": "Stop closing all your apps to save battery. It can use more.",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.2,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "shocked",
+     "pose": "shrug",
+     "talk": true
+    }
+   ],
+   "near": false,
+   "ding": true,
+   "ding_at": 0.05
+  },
+  {
+   "bg": "scene",
+   "landmark": "myth",
+   "terrain": "city",
+   "time": "day",
+   "text": "Apps in the background are mostly frozen. They use almost no power.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.82,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "thinking",
+     "pose": "think",
+     "talk": false
+    }
+   ],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "phone",
+   "terrain": "city",
+   "time": "day",
+   "text": "When you close one, the phone has to start it from zero next time. That costs more energy.",
+   "chars": [
+    {
+     "outfit": "kid",
+     "x": 0.82,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "thinking",
+     "pose": "think",
+     "talk": false
+    }
+   ],
+   "near": false,
+   "ding": true,
+   "ding_at": 0.6
+  },
+  {
+   "bg": "scene",
+   "landmark": "fact",
+   "terrain": "city",
+   "time": "day",
+   "text": "Only close an app if it's frozen or acting weird.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.82,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "happy",
+     "pose": "think",
+     "talk": false
+    }
+   ],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "yesno",
+   "terrain": "city",
+   "time": "day",
+   "text": "Do you swipe away all your apps? Comment YES or NO!",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.2,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "wave",
+     "talk": true
+    }
+   ],
+   "near": false
+  }
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "id": "32-top3-car-wastes-fuel",
+ "title": "Top 3 Ways You Waste Fuel Every Day ⛽ #shorts",
+ "desc": "Three everyday habits that quietly burn extra fuel, and how to fix them.",
+ "tags": [
+  "cars",
+  "fuel",
+  "driving tips",
+  "save money",
+  "did you know"
+ ],
+ "emph": [
+  "fuel",
+  "tires",
+  "cold",
+  "pedal"
+ ],
+ "question": "💬 How often do you check your tire pressure? Tell us 👇",
+ "scenes": [
+  {
+   "bg": "scene",
+   "landmark": "dragstrip",
+   "terrain": "city",
+   "time": "day",
+   "text": "Three habits burning your fuel money. Number one is the biggest.",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.2,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "shocked",
+     "pose": "panic",
+     "talk": true
+    }
+   ],
+   "near": false,
+   "ding": true,
+   "ding_at": 0.05
+  },
+  {
+   "bg": "scene",
+   "landmark": "num3",
+   "terrain": "city",
+   "time": "day",
+   "text": "Number three: junk in the trunk. Extra weight means extra fuel.",
+   "chars": [
+    {
+     "outfit": "kid",
+     "x": 0.82,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "thinking",
+     "pose": "think",
+     "talk": false
+    }
+   ],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "num2",
+   "terrain": "city",
+   "time": "day",
+   "text": "Number two: soft tires. Cold weather lowers tire pressure, so check them in winter.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.82,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "thinking",
+     "pose": "think",
+     "talk": false
+    }
+   ],
+   "near": false,
+   "ding": true,
+   "ding_at": 0.5
+  },
+  {
+   "bg": "scene",
+   "landmark": "num1",
+   "terrain": "city",
+   "time": "day",
+   "text": "Number one: heavy foot. Fast starts and hard braking waste the most fuel.",
+   "chars": [
+    {
+     "outfit": "kid",
+     "x": 0.82,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "shocked",
+     "pose": "panic",
+     "talk": false
+    }
+   ],
+   "near": false,
+   "ding": true,
+   "ding_at": 0.4
+  },
+  {
+   "bg": "scene",
+   "landmark": "yesno",
+   "terrain": "city",
+   "time": "day",
+   "text": "Smooth driving saves real money. Do you check your tires? Comment YES or NO!",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.2,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "wave",
+     "talk": true
+    }
+   ],
+   "near": false
+  }
+ ]
+}

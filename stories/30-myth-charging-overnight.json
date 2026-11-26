@@ -1,0 +1,120 @@
+{
+ "id": "30-myth-charging-overnight",
+ "title": "MYTH: Charging Overnight Kills Your Battery 🔋 #shorts",
+ "desc": "Is it bad to charge your phone overnight? Here's what really wears out your battery.",
+ "tags": [
+  "phone battery",
+  "charging",
+  "phone tips",
+  "myth busting",
+  "did you know"
+ ],
+ "emph": [
+  "overnight",
+  "heat",
+  "pillow",
+  "80"
+ ],
+ "question": "💬 Do you charge your phone overnight? Comment YES or NO 👇",
+ "scenes": [
+  {
+   "bg": "scene",
+   "landmark": "battery100",
+   "terrain": "city",
+   "time": "day",
+   "text": "Charging your phone overnight ruins the battery? Not really.",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.2,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "shocked",
+     "pose": "panic",
+     "talk": true
+    }
+   ],
+   "near": false,
+   "ding": true,
+   "ding_at": 0.05
+  },
+  {
+   "bg": "scene",
+   "landmark": "myth",
+   "terrain": "city",
+   "time": "day",
+   "text": "Modern phones stop at full and slow down charging near the end. That's built in.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.82,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "thinking",
+     "pose": "think",
+     "talk": false
+    }
+   ],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "phone_hot",
+   "terrain": "city",
+   "time": "day",
+   "text": "The real battery killer is heat. Never charge it under your pillow or blanket.",
+   "chars": [
+    {
+     "outfit": "kid",
+     "x": 0.82,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "shocked",
+     "pose": "panic",
+     "talk": false
+    }
+   ],
+   "near": false,
+   "ding": true,
+   "ding_at": 0.4
+  },
+  {
+   "bg": "scene",
+   "landmark": "battery80",
+   "terrain": "city",
+   "time": "day",
+   "text": "Turn on optimized charging, and keep it around eighty percent when you can.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.82,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "happy",
+     "pose": "think",
+     "talk": false
+    }
+   ],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "yesno",
+   "terrain": "city",
+   "time": "day",
+   "text": "Do you charge your phone overnight? Comment YES or NO!",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.2,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "wave",
+     "talk": true
+    }
+   ],
+   "near": false
+  }
+ ]
+}

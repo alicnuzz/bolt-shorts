@@ -1,0 +1,120 @@
+{
+ "id": "33-why-phone-dies-in-cold",
+ "title": "Why Your Phone Dies Fast in the Cold ❄️ #shorts",
+ "desc": "Your phone says twenty percent, then suddenly dies outside in winter. Here's why, and the easy fix.",
+ "tags": [
+  "phone battery",
+  "winter",
+  "cold",
+  "phone tips",
+  "did you know"
+ ],
+ "emph": [
+  "cold",
+  "slow",
+  "pocket",
+  "warm"
+ ],
+ "question": "💬 Has your phone ever died in the cold? Comment YES or NO 👇",
+ "scenes": [
+  {
+   "bg": "scene",
+   "landmark": "battery20",
+   "terrain": "snow",
+   "time": "day",
+   "text": "Twenty percent, and then your phone just dies in the cold. Why?",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.2,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "shocked",
+     "pose": "panic",
+     "talk": true
+    }
+   ],
+   "near": false,
+   "ding": true,
+   "ding_at": 0.05
+  },
+  {
+   "bg": "scene",
+   "landmark": "thermo_cold",
+   "terrain": "snow",
+   "time": "day",
+   "text": "In the cold, the chemicals inside the battery slow down.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.82,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "thinking",
+     "pose": "think",
+     "talk": false
+    }
+   ],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "battery20",
+   "terrain": "snow",
+   "time": "day",
+   "text": "The battery can't deliver enough power, so the phone shuts off to protect itself.",
+   "chars": [
+    {
+     "outfit": "kid",
+     "x": 0.82,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "shocked",
+     "pose": "panic",
+     "talk": false
+    }
+   ],
+   "near": false,
+   "ding": true,
+   "ding_at": 0.6
+  },
+  {
+   "bg": "scene",
+   "landmark": "thermo_warm",
+   "terrain": "snow",
+   "time": "day",
+   "text": "The fix: keep it in an inside pocket. Once it warms up, the charge comes back.",
+   "chars": [
+    {
+     "outfit": "engineer",
+     "x": 0.82,
+     "y": 0.95,
+     "s": 0.9,
+     "expr": "happy",
+     "pose": "think",
+     "talk": false
+    }
+   ],
+   "near": false
+  },
+  {
+   "bg": "scene",
+   "landmark": "yesno",
+   "terrain": "snow",
+   "time": "day",
+   "text": "Has your phone ever died in the cold? Comment YES or NO!",
+   "chars": [
+    {
+     "outfit": "bolt",
+     "x": 0.2,
+     "y": 0.95,
+     "s": 0.95,
+     "expr": "happy",
+     "pose": "wave",
+     "talk": true
+    }
+   ],
+   "near": false
+  }
+ ]
+}
